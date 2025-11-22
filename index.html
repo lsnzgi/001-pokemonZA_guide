@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宝可梦传说 Z-A 图鉴记忆助手</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>LEGENDS <span class="accent">Z-A</span> MEMORY</h1>
+            <p>密阿雷图鉴记忆助手</p>
+        </div>
+
+        <nav class="main-nav">
+            <button class="nav-btn active" data-tab="grid">图鉴 (Pokedex)</button>
+            <button class="nav-btn" data-tab="flashcards">卡片 (Flashcards)</button>
+            <button class="nav-btn" data-tab="games">游戏 (Games)</button>
+            <button class="nav-btn" data-tab="cheatsheet">相性表 (Cheatsheet)</button>
+        </nav>
+
+        <div class="controls" id="grid-controls">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="搜索宝可梦名称或属性...">
+            </div>
+            <div class="filter-bar" id="type-filters">
+                <!-- Type badges will be injected here -->
+            </div>
+            <div class="toggles">
+                <label class="toggle-btn">
+                    <input type="checkbox" id="hide-names">
+                    <span class="toggle-label">隐藏名字</span>
+                </label>
+                <label class="toggle-btn">
+                    <input type="checkbox" id="hide-types">
+                    <span class="toggle-label">隐藏属性</span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Grid View -->
+        <div id="grid-view" class="view-section active">
+            <div id="pokemon-grid" class="grid-container">
+                <!-- Pokemon cards will be injected here -->
+            </div>
+        </div>
+
+        <!-- Flashcard View -->
+        <div id="flashcards-view" class="view-section hidden">
+            <div class="flashcard-container">
+                <div class="flashcard" id="flashcard">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <img id="fc-img" src="" alt="Pokemon">
+                            <h2 id="fc-name">???</h2>
+                            <p class="fc-hint">点击翻转 (Click to Flip)</p>
+                        </div>
+                        <div class="flashcard-back">
+                            <h2 id="fc-name-back">???</h2>
+                            <div id="fc-types" class="pokemon-types"></div>
+                            <div id="fc-weaknesses" class="effectiveness-section"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fc-controls">
+                    <button id="fc-prev" class="fc-btn">Previous</button>
+                    <button id="fc-flip" class="fc-btn action">Flip</button>
+                    <button id="fc-next" class="fc-btn">Next</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Games View -->
+        <div id="games-view" class="view-section hidden">
+            <div class="games-menu">
+                <button class="game-btn" onclick="startGame('type')">
+                    <div>
+                        <div class="game-icon">❓</div>
+                        <div>猜属性<br>Guess Type</div>
+                    </div>
+                </button>
+                <button class="game-btn" onclick="startGame('weakness')">
+                    <div>
+                        <div class="game-icon">🛡️</div>
+                        <div>猜弱点<br>Guess Weakness</div>
+                    </div>
+                </button>
+                <button class="game-btn" onclick="startGame('strong')">
+                    <div>
+                        <div class="game-icon">⚔️</div>
+                        <div>猜克制<br>Guess Strong</div>
+                    </div>
+                </button>
+            </div>
+            <div id="game-area" class="hidden">
+                <div class="game-header">
+                    <div class="score-board">
+                        <span id="game-score">Score: 0</span>
+                        <span id="game-streak" class="streak hidden">Streak: 0</span>
+                    </div>
+                    <button class="close-game-btn" onclick="stopGame()">Exit</button>
+                </div>
+                <div id="game-content">
+                    <!-- Game content injected here -->
+                </div>
+                <div id="game-controls" class="hidden">
+                    <button id="submit-answer-btn" class="action-btn">Submit Answer</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cheatsheet View (Type Explorer) -->
+        <div id="cheatsheet-view" class="view-section hidden">
+            <div class="type-explorer">
+                <div class="explorer-header">
+                    <h3>选择属性查看相性 (Select a Type)</h3>
+                    <div id="explorer-types" class="type-grid">
+                        <!-- Type badges injected here -->
+                    </div>
+                </div>
+                <div id="explorer-results" class="explorer-results hidden">
+                    <div class="result-col offensive">
+                        <h4>攻击 (Offensive)</h4>
+                        <p class="sub-label">打击面 (Strong Against)</p>
+                        <div id="off-strong" class="result-list"></div>
+                        <p class="sub-label">微弱 (Weak Against)</p>
+                        <div id="off-weak" class="result-list"></div>
+                    </div>
+                    <div class="result-col defensive">
+                        <h4>防御 (Defensive)</h4>
+                        <p class="sub-label">弱点 (Weak To)</p>
+                        <div id="def-weak" class="result-list"></div>
+                        <p class="sub-label">抵抗 (Resistant To)</p>
+                        <div id="def-resist" class="result-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modal-body">
+                <!-- Details will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Data from 52poke Wiki | Images from PokeAPI</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
