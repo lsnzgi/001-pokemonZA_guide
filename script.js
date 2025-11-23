@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         const optionsHtml = options.map(opt =>
-            `<button class="option-btn" onclick="handleOptionClick(this, '${opt}')">${opt}</button>`
+            `<button class="option-btn type-${opt}" onclick="handleOptionClick(this, '${opt}')">${opt}</button>`
         ).join('');
 
         gameContent.innerHTML = `
