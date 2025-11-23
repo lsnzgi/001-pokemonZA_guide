@@ -41,8 +41,7 @@ header {
     padding: 2rem;
     text-align: center;
     background: rgba(255, 255, 255, 0.2);
-    position: sticky;
-    top: 0;
+    position: relative; /* Changed from sticky to relative */
     z-index: 100;
     backdrop-filter: blur(12px);
     border-bottom: var(--glass-border);
@@ -78,7 +77,8 @@ h1 {
     border: 2px solid #D8BFD8;
     background: rgba(255, 255, 255, 0.8);
     color: var(--text-color);
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     font-size: 1rem;
     transition: var(--transition);
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.05);
@@ -1080,4 +1080,129 @@ footer {
     padding: 2rem;
     color: #666;
     font-size: 0.8rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    header {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .controls {
+        gap: 1rem;
+    }
+
+    .toggles {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .pokemon-card {
+        padding: 0.8rem;
+    }
+
+    .pokemon-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Flashcards */
+    .flashcard {
+        width: 90vw;
+        max-width: 320px;
+        height: 420px;
+    }
+
+    .flashcard-front img {
+        width: 180px;
+        height: 180px;
+    }
+
+    /* Games Menu */
+    .games-menu {
+        flex-direction: column;
+        padding: 2rem 1rem;
+        gap: 1.5rem;
+        align-items: center;
+    }
+
+    .game-btn {
+        width: 100%;
+        max-width: 280px;
+        height: 100px;
+        flex-direction: row;
+        gap: 1rem;
+        padding: 0 2rem;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .game-btn > div {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .game-icon {
+        font-size: 2.5rem;
+        margin-bottom: 0;
+    }
+
+    /* Cheatsheet */
+    .type-explorer {
+        padding: 1rem;
+    }
+
+    .cheatsheet-graph {
+        padding: 1rem;
+    }
+
+    .cs-row {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        text-align: center;
+        padding: 1rem 0.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .cs-left, .cs-right {
+        text-align: center;
+        align-items: center;
+    }
+    
+    .cs-center {
+        order: -1; /* Put the main type on top */
+        margin-bottom: 0.5rem;
+    }
+
+    .cs-badges {
+        justify-content: center;
+    }
+
+    /* Modal */
+    .modal-content {
+        width: 95%;
+        padding: 1.5rem;
+    }
+
+    .detail-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .detail-img {
+        width: 120px;
+        height: 120px;
+    }
 }
