@@ -6,7 +6,9 @@
     "types": [
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png",
+    "name_en": "Chikorita",
+    "name_jp": "チコリータ"
   },
   {
     "id": "002",
@@ -15,7 +17,9 @@
     "types": [
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png",
+    "name_en": "Bayleef",
+    "name_jp": "ベイリーフ"
   },
   {
     "id": "003",
@@ -24,7 +28,9 @@
     "types": [
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png",
+    "name_en": "Meganium",
+    "name_jp": "メガニウム"
   },
   {
     "id": "004",
@@ -33,7 +39,9 @@
     "types": [
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/498.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/498.png",
+    "name_en": "Tepig",
+    "name_jp": "ポカブ"
   },
   {
     "id": "005",
@@ -43,7 +51,9 @@
       "火",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/499.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/499.png",
+    "name_en": "Pignite",
+    "name_jp": "チャオブー"
   },
   {
     "id": "006",
@@ -53,7 +63,9 @@
       "火",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/500.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/500.png",
+    "name_en": "Emboar",
+    "name_jp": "エンブオー"
   },
   {
     "id": "007",
@@ -62,7 +74,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png",
+    "name_en": "Totodile",
+    "name_jp": "ワニノコ"
   },
   {
     "id": "008",
@@ -71,7 +85,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png",
+    "name_en": "Croconaw",
+    "name_jp": "アリゲイツ"
   },
   {
     "id": "009",
@@ -80,7 +96,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png",
+    "name_en": "Feraligatr",
+    "name_jp": "オーダイル"
   },
   {
     "id": "010",
@@ -90,7 +108,9 @@
       "一般",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/661.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/661.png",
+    "name_en": "Fletchling",
+    "name_jp": "ヤヤコマ"
   },
   {
     "id": "011",
@@ -100,7 +120,9 @@
       "火",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/662.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/662.png",
+    "name_en": "Fletchinder",
+    "name_jp": "ヒノヤコマ"
   },
   {
     "id": "012",
@@ -110,7 +132,9 @@
       "火",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/663.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/663.png",
+    "name_en": "Talonflame",
+    "name_jp": "ファイアロー"
   },
   {
     "id": "013",
@@ -119,7 +143,9 @@
     "types": [
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/659.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/659.png",
+    "name_en": "Bunnelby",
+    "name_jp": "ホルビー"
   },
   {
     "id": "014",
@@ -129,7 +155,9 @@
       "一般",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/660.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/660.png",
+    "name_en": "Diggersby",
+    "name_jp": "ホルード"
   },
   {
     "id": "015",
@@ -138,7 +166,9 @@
     "types": [
       "虫"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
+    "name_en": "Scatterbug",
+    "name_jp": "コフキムシ"
   },
   {
     "id": "016",
@@ -147,7 +177,9 @@
     "types": [
       "虫"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
+    "name_en": "Spewpa",
+    "name_jp": "コフーライ"
   },
   {
     "id": "017",
@@ -157,7 +189,9 @@
       "虫",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
+    "name_en": "Vivillon",
+    "name_jp": "ビビヨン"
   },
   {
     "id": "018",
@@ -167,7 +201,9 @@
       "虫",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+    "name_en": "Weedle",
+    "name_jp": "ビードル"
   },
   {
     "id": "019",
@@ -177,7 +213,9 @@
       "虫",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+    "name_en": "Kakuna",
+    "name_jp": "コクーン"
   },
   {
     "id": "020",
@@ -187,7 +225,9 @@
       "虫",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+    "name_en": "Beedrill",
+    "name_jp": "スピアー"
   },
   {
     "id": "021",
@@ -197,7 +237,9 @@
       "一般",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+    "name_en": "Pidgey",
+    "name_jp": "ポッポ"
   },
   {
     "id": "022",
@@ -207,7 +249,9 @@
       "一般",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+    "name_en": "Pidgeotto",
+    "name_jp": "ピジョン"
   },
   {
     "id": "023",
@@ -217,7 +261,9 @@
       "一般",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+    "name_en": "Pidgeot",
+    "name_jp": "ピジョット"
   },
   {
     "id": "024",
@@ -226,7 +272,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png",
+    "name_en": "Mareep",
+    "name_jp": "メリープ"
   },
   {
     "id": "025",
@@ -235,7 +283,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/180.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/180.png",
+    "name_en": "Flaaffy",
+    "name_jp": "モココ"
   },
   {
     "id": "026",
@@ -244,7 +294,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
+    "name_en": "Ampharos",
+    "name_jp": "デンリュウ"
   },
   {
     "id": "027",
@@ -253,7 +305,9 @@
     "types": [
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/504.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/504.png",
+    "name_en": "Patrat",
+    "name_jp": "ミネズミ"
   },
   {
     "id": "028",
@@ -262,7 +316,9 @@
     "types": [
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/505.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/505.png",
+    "name_en": "Watchog",
+    "name_jp": "ミルホッグ"
   },
   {
     "id": "029",
@@ -272,7 +328,9 @@
       "草",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/406.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/406.png",
+    "name_en": "Budew",
+    "name_jp": "スボミー"
   },
   {
     "id": "030",
@@ -282,7 +340,9 @@
       "草",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png",
+    "name_en": "Roselia",
+    "name_jp": "ロゼリア"
   },
   {
     "id": "031",
@@ -292,7 +352,9 @@
       "草",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png",
+    "name_en": "Roserade",
+    "name_jp": "ロズレイド"
   },
   {
     "id": "032",
@@ -301,7 +363,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+    "name_en": "Magikarp",
+    "name_jp": "コイキング"
   },
   {
     "id": "033",
@@ -311,7 +375,9 @@
       "水",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+    "name_en": "Gyarados",
+    "name_jp": "ギャラドス"
   },
   {
     "id": "034",
@@ -321,7 +387,9 @@
       "岩石",
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/688.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/688.png",
+    "name_en": "Binacle",
+    "name_jp": "カメテテ"
   },
   {
     "id": "035",
@@ -331,7 +399,9 @@
       "岩石",
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png",
+    "name_en": "Barbaracle",
+    "name_jp": "ガメノデス"
   },
   {
     "id": "036",
@@ -340,7 +410,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+    "name_en": "Staryu",
+    "name_jp": "ヒトデマン"
   },
   {
     "id": "037",
@@ -350,7 +422,9 @@
       "水",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+    "name_en": "Starmie",
+    "name_jp": "スターミー"
   },
   {
     "id": "038",
@@ -359,7 +433,9 @@
     "types": [
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/669.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/669.png",
+    "name_en": "Flabébé",
+    "name_jp": "フラベベ"
   },
   {
     "id": "039",
@@ -368,7 +444,9 @@
     "types": [
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/670.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/670.png",
+    "name_en": "Floette",
+    "name_jp": "フラエッテ"
   },
   {
     "id": "040",
@@ -377,7 +455,9 @@
     "types": [
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/671.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/671.png",
+    "name_en": "Florges",
+    "name_jp": "フラージェス"
   },
   {
     "id": "041",
@@ -386,7 +466,9 @@
     "types": [
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/672.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/672.png",
+    "name_en": "Skiddo",
+    "name_jp": "メェークル"
   },
   {
     "id": "042",
@@ -395,7 +477,9 @@
     "types": [
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/673.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/673.png",
+    "name_en": "Gogoat",
+    "name_jp": "ゴーゴート"
   },
   {
     "id": "043",
@@ -404,7 +488,9 @@
     "types": [
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/677.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/677.png",
+    "name_en": "Espurr",
+    "name_jp": "ニャスパー"
   },
   {
     "id": "044",
@@ -413,7 +499,9 @@
     "types": [
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/678.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/678.png",
+    "name_en": "Meowstic",
+    "name_jp": "ニャオニクス"
   },
   {
     "id": "045",
@@ -423,7 +511,9 @@
       "火",
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/667.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/667.png",
+    "name_en": "Litleo",
+    "name_jp": "シシコ"
   },
   {
     "id": "046",
@@ -433,7 +523,9 @@
       "火",
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png",
+    "name_en": "Pyroar",
+    "name_jp": "カエンジシ"
   },
   {
     "id": "047",
@@ -442,7 +534,9 @@
     "types": [
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/674.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/674.png",
+    "name_en": "Pancham",
+    "name_jp": "ヤンチャム"
   },
   {
     "id": "048",
@@ -452,7 +546,9 @@
       "格斗",
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/675.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/675.png",
+    "name_en": "Pangoro",
+    "name_jp": "ゴロンダ"
   },
   {
     "id": "049",
@@ -461,7 +557,9 @@
     "types": [
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/568.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/568.png",
+    "name_en": "Trubbish",
+    "name_jp": "ヤブクロン"
   },
   {
     "id": "050",
@@ -470,7 +568,9 @@
     "types": [
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/569.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/569.png",
+    "name_en": "Garbodor",
+    "name_jp": "ダストダス"
   },
   {
     "id": "051",
@@ -480,7 +580,9 @@
       "电",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/702.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/702.png",
+    "name_en": "Dedenne",
+    "name_jp": "デデンネ"
   },
   {
     "id": "052",
@@ -489,7 +591,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png",
+    "name_en": "Pichu",
+    "name_jp": "ピチュー"
   },
   {
     "id": "053",
@@ -498,7 +602,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "name_en": "Pikachu",
+    "name_jp": "ピカチュウ"
   },
   {
     "id": "054",
@@ -507,7 +613,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+    "name_en": "Raichu",
+    "name_jp": "ライチュウ"
   },
   {
     "id": "055",
@@ -516,7 +624,9 @@
     "types": [
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/173.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/173.png",
+    "name_en": "Cleffa",
+    "name_jp": "ピィ"
   },
   {
     "id": "056",
@@ -525,7 +635,9 @@
     "types": [
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+    "name_en": "Clefairy",
+    "name_jp": "ピッピ"
   },
   {
     "id": "057",
@@ -534,7 +646,9 @@
     "types": [
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+    "name_en": "Clefable",
+    "name_jp": "ピクシー"
   },
   {
     "id": "058",
@@ -544,7 +658,9 @@
       "虫",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/167.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/167.png",
+    "name_en": "Spinarak",
+    "name_jp": "イトマル"
   },
   {
     "id": "059",
@@ -554,7 +670,9 @@
       "虫",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png",
+    "name_en": "Ariados",
+    "name_jp": "アリアドス"
   },
   {
     "id": "060",
@@ -563,7 +681,9 @@
     "types": [
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+    "name_en": "Ekans",
+    "name_jp": "アーボ"
   },
   {
     "id": "061",
@@ -572,7 +692,9 @@
     "types": [
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+    "name_en": "Arbok",
+    "name_jp": "アーボック"
   },
   {
     "id": "062",
@@ -581,7 +703,9 @@
     "types": [
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+    "name_en": "Abra",
+    "name_jp": "ケーシィ"
   },
   {
     "id": "063",
@@ -590,7 +714,9 @@
     "types": [
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+    "name_en": "Kadabra",
+    "name_jp": "ユンゲラー"
   },
   {
     "id": "064",
@@ -599,7 +725,9 @@
     "types": [
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+    "name_en": "Alakazam",
+    "name_jp": "フーディン"
   },
   {
     "id": "065",
@@ -609,7 +737,9 @@
       "幽灵",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+    "name_en": "Gastly",
+    "name_jp": "ゴース"
   },
   {
     "id": "066",
@@ -619,7 +749,9 @@
       "幽灵",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+    "name_en": "Haunter",
+    "name_jp": "ゴースト"
   },
   {
     "id": "067",
@@ -629,7 +761,9 @@
       "幽灵",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+    "name_en": "Gengar",
+    "name_jp": "ゲンガー"
   },
   {
     "id": "068",
@@ -639,7 +773,9 @@
       "虫",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/543.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/543.png",
+    "name_en": "Venipede",
+    "name_jp": "フシデ"
   },
   {
     "id": "069",
@@ -649,7 +785,9 @@
       "虫",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/544.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/544.png",
+    "name_en": "Whirlipede",
+    "name_jp": "ホイーガ"
   },
   {
     "id": "070",
@@ -659,7 +797,9 @@
       "虫",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png",
+    "name_en": "Scolipede",
+    "name_jp": "ペンドラー"
   },
   {
     "id": "071",
@@ -669,7 +809,9 @@
       "钢",
       "幽灵"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/679.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/679.png",
+    "name_en": "Honedge",
+    "name_jp": "ヒトツキ"
   },
   {
     "id": "072",
@@ -679,7 +821,9 @@
       "钢",
       "幽灵"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/680.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/680.png",
+    "name_en": "Doublade",
+    "name_jp": "ニダンギル"
   },
   {
     "id": "073",
@@ -689,7 +833,9 @@
       "钢",
       "幽灵"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png",
+    "name_en": "Aegislash",
+    "name_jp": "ギルガルド"
   },
   {
     "id": "074",
@@ -699,7 +845,9 @@
       "草",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+    "name_en": "Bellsprout",
+    "name_jp": "マダツボミ"
   },
   {
     "id": "075",
@@ -709,7 +857,9 @@
       "草",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+    "name_en": "Weepinbell",
+    "name_jp": "ウツドン"
   },
   {
     "id": "076",
@@ -719,7 +869,9 @@
       "草",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+    "name_en": "Victreebel",
+    "name_jp": "ウツボット"
   },
   {
     "id": "077",
@@ -728,7 +880,9 @@
     "types": [
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/511.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/511.png",
+    "name_en": "Pansage",
+    "name_jp": "ヤナップ"
   },
   {
     "id": "078",
@@ -737,7 +891,9 @@
     "types": [
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/512.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/512.png",
+    "name_en": "Simisage",
+    "name_jp": "ヤナッキー"
   },
   {
     "id": "079",
@@ -746,7 +902,9 @@
     "types": [
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/513.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/513.png",
+    "name_en": "Pansear",
+    "name_jp": "バオップ"
   },
   {
     "id": "080",
@@ -755,7 +913,9 @@
     "types": [
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/514.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/514.png",
+    "name_en": "Simisear",
+    "name_jp": "バオッキー"
   },
   {
     "id": "081",
@@ -764,7 +924,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/515.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/515.png",
+    "name_en": "Panpour",
+    "name_jp": "ヒヤップ"
   },
   {
     "id": "082",
@@ -773,7 +935,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/516.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/516.png",
+    "name_en": "Simipour",
+    "name_jp": "ヒヤッキー"
   },
   {
     "id": "083",
@@ -783,7 +947,9 @@
       "格斗",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png",
+    "name_en": "Meditite",
+    "name_jp": "アサナン"
   },
   {
     "id": "084",
@@ -793,7 +959,9 @@
       "格斗",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png",
+    "name_en": "Medicham",
+    "name_jp": "チャーレム"
   },
   {
     "id": "085",
@@ -802,7 +970,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/309.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/309.png",
+    "name_en": "Electrike",
+    "name_jp": "ラクライ"
   },
   {
     "id": "086",
@@ -811,7 +981,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png",
+    "name_en": "Manectric",
+    "name_jp": "ライボルト"
   },
   {
     "id": "087",
@@ -821,7 +993,9 @@
       "超能力",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/280.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/280.png",
+    "name_en": "Ralts",
+    "name_jp": "ラルトス"
   },
   {
     "id": "088",
@@ -831,7 +1005,9 @@
       "超能力",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/281.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/281.png",
+    "name_en": "Kirlia",
+    "name_jp": "キルリア"
   },
   {
     "id": "089",
@@ -841,7 +1017,9 @@
       "超能力",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
+    "name_en": "Gardevoir",
+    "name_jp": "サーナイト"
   },
   {
     "id": "090",
@@ -851,7 +1029,9 @@
       "超能力",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png",
+    "name_en": "Gallade",
+    "name_jp": "エルレイド"
   },
   {
     "id": "091",
@@ -861,7 +1041,9 @@
       "恶",
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/228.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/228.png",
+    "name_en": "Houndour",
+    "name_jp": "デルビル"
   },
   {
     "id": "092",
@@ -871,7 +1053,9 @@
       "恶",
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png",
+    "name_en": "Houndoom",
+    "name_jp": "ヘルガー"
   },
   {
     "id": "093",
@@ -881,7 +1065,9 @@
       "一般",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/333.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/333.png",
+    "name_en": "Swablu",
+    "name_jp": "チルット"
   },
   {
     "id": "094",
@@ -891,7 +1077,9 @@
       "龙",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png",
+    "name_en": "Altaria",
+    "name_jp": "チルタリス"
   },
   {
     "id": "095",
@@ -900,7 +1088,9 @@
     "types": [
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/531.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/531.png",
+    "name_en": "Audino",
+    "name_jp": "タブンネ"
   },
   {
     "id": "096",
@@ -909,7 +1099,9 @@
     "types": [
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/682.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/682.png",
+    "name_en": "Spritzee",
+    "name_jp": "シュシュプ"
   },
   {
     "id": "097",
@@ -918,7 +1110,9 @@
     "types": [
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/683.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/683.png",
+    "name_en": "Aromatisse",
+    "name_jp": "フレフワン"
   },
   {
     "id": "098",
@@ -927,7 +1121,9 @@
     "types": [
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/684.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/684.png",
+    "name_en": "Swirlix",
+    "name_jp": "ペロッパフ"
   },
   {
     "id": "099",
@@ -936,7 +1132,9 @@
     "types": [
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/685.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/685.png",
+    "name_en": "Slurpuff",
+    "name_jp": "ペロリーム"
   },
   {
     "id": "100",
@@ -945,7 +1143,9 @@
     "types": [
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+    "name_en": "Eevee",
+    "name_jp": "イーブイ"
   },
   {
     "id": "101",
@@ -954,7 +1154,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+    "name_en": "Vaporeon",
+    "name_jp": "シャワーズ"
   },
   {
     "id": "102",
@@ -963,7 +1165,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+    "name_en": "Jolteon",
+    "name_jp": "サンダース"
   },
   {
     "id": "103",
@@ -972,7 +1176,9 @@
     "types": [
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+    "name_en": "Flareon",
+    "name_jp": "ブースター"
   },
   {
     "id": "104",
@@ -981,7 +1187,9 @@
     "types": [
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
+    "name_en": "Espeon",
+    "name_jp": "エーフィ"
   },
   {
     "id": "105",
@@ -990,7 +1198,9 @@
     "types": [
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png",
+    "name_en": "Umbreon",
+    "name_jp": "ブラッキー"
   },
   {
     "id": "106",
@@ -999,7 +1209,9 @@
     "types": [
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png",
+    "name_en": "Leafeon",
+    "name_jp": "リーフィア"
   },
   {
     "id": "107",
@@ -1008,7 +1220,9 @@
     "types": [
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png",
+    "name_en": "Glaceon",
+    "name_jp": "グレイシア"
   },
   {
     "id": "108",
@@ -1017,7 +1231,9 @@
     "types": [
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png",
+    "name_en": "Sylveon",
+    "name_jp": "ニンフィア"
   },
   {
     "id": "109",
@@ -1026,7 +1242,9 @@
     "types": [
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/427.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/427.png",
+    "name_en": "Buneary",
+    "name_jp": "ミミロル"
   },
   {
     "id": "110",
@@ -1035,7 +1253,9 @@
     "types": [
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png",
+    "name_en": "Lopunny",
+    "name_jp": "ミミロップ"
   },
   {
     "id": "111",
@@ -1044,7 +1264,9 @@
     "types": [
       "幽灵"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/353.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/353.png",
+    "name_en": "Shuppet",
+    "name_jp": "カゲボウズ"
   },
   {
     "id": "112",
@@ -1053,7 +1275,9 @@
     "types": [
       "幽灵"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png",
+    "name_en": "Banette",
+    "name_jp": "ジュペッタ"
   },
   {
     "id": "113",
@@ -1062,7 +1286,9 @@
     "types": [
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/582.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/582.png",
+    "name_en": "Vanillite",
+    "name_jp": "バニプッチ"
   },
   {
     "id": "114",
@@ -1071,7 +1297,9 @@
     "types": [
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/583.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/583.png",
+    "name_en": "Vanillish",
+    "name_jp": "バニリッチ"
   },
   {
     "id": "115",
@@ -1080,7 +1308,9 @@
     "types": [
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/584.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/584.png",
+    "name_en": "Vanilluxe",
+    "name_jp": "バイバニラ"
   },
   {
     "id": "116",
@@ -1090,7 +1320,9 @@
       "火",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/322.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/322.png",
+    "name_en": "Numel",
+    "name_jp": "ドンメル"
   },
   {
     "id": "117",
@@ -1100,7 +1332,9 @@
       "火",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png",
+    "name_en": "Camerupt",
+    "name_jp": "バクーダ"
   },
   {
     "id": "118",
@@ -1109,7 +1343,9 @@
     "types": [
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/449.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/449.png",
+    "name_en": "Hippopotas",
+    "name_jp": "ヒポポタス"
   },
   {
     "id": "119",
@@ -1118,7 +1354,9 @@
     "types": [
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/450.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/450.png",
+    "name_en": "Hippowdon",
+    "name_jp": "カバルドン"
   },
   {
     "id": "120",
@@ -1127,7 +1365,9 @@
     "types": [
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/529.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/529.png",
+    "name_en": "Drilbur",
+    "name_jp": "モグリュー"
   },
   {
     "id": "121",
@@ -1137,7 +1377,9 @@
       "地面",
       "钢"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/530.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/530.png",
+    "name_en": "Excadrill",
+    "name_jp": "ドリュウズ"
   },
   {
     "id": "122",
@@ -1147,7 +1389,9 @@
       "地面",
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/551.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/551.png",
+    "name_en": "Sandile",
+    "name_jp": "メグロコ"
   },
   {
     "id": "123",
@@ -1157,7 +1401,9 @@
       "地面",
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/552.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/552.png",
+    "name_en": "Krokorok",
+    "name_jp": "ワルビル"
   },
   {
     "id": "124",
@@ -1167,7 +1413,9 @@
       "地面",
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/553.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/553.png",
+    "name_en": "Krookodile",
+    "name_jp": "ワルビアル"
   },
   {
     "id": "125",
@@ -1176,7 +1424,9 @@
     "types": [
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+    "name_en": "Machop",
+    "name_jp": "ワンリキー"
   },
   {
     "id": "126",
@@ -1185,7 +1435,9 @@
     "types": [
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+    "name_en": "Machoke",
+    "name_jp": "ゴーリキー"
   },
   {
     "id": "127",
@@ -1194,7 +1446,9 @@
     "types": [
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+    "name_en": "Machamp",
+    "name_jp": "カイリキー"
   },
   {
     "id": "128",
@@ -1204,7 +1458,9 @@
       "龙",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/443.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/443.png",
+    "name_en": "Gible",
+    "name_jp": "フカマル"
   },
   {
     "id": "129",
@@ -1214,7 +1470,9 @@
       "龙",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/444.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/444.png",
+    "name_en": "Gabite",
+    "name_jp": "ガバイト"
   },
   {
     "id": "130",
@@ -1224,7 +1482,9 @@
       "龙",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png",
+    "name_en": "Garchomp",
+    "name_jp": "ガブリアス"
   },
   {
     "id": "131",
@@ -1234,7 +1494,9 @@
       "岩石",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/703.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/703.png",
+    "name_en": "Carbink",
+    "name_jp": "メレシー"
   },
   {
     "id": "132",
@@ -1244,7 +1506,9 @@
       "恶",
       "幽灵"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png",
+    "name_en": "Sableye",
+    "name_jp": "ヤミラミ"
   },
   {
     "id": "133",
@@ -1254,7 +1518,9 @@
       "钢",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
+    "name_en": "Mawile",
+    "name_jp": "クチート"
   },
   {
     "id": "134",
@@ -1263,7 +1529,9 @@
     "types": [
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png",
+    "name_en": "Absol",
+    "name_jp": "アブソル"
   },
   {
     "id": "135",
@@ -1272,7 +1540,9 @@
     "types": [
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/447.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/447.png",
+    "name_en": "Riolu",
+    "name_jp": "リオル"
   },
   {
     "id": "136",
@@ -1282,7 +1552,9 @@
       "格斗",
       "钢"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png",
+    "name_en": "Lucario",
+    "name_jp": "ルカリオ"
   },
   {
     "id": "137",
@@ -1292,7 +1564,9 @@
       "水",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+    "name_en": "Slowpoke",
+    "name_jp": "ヤドン"
   },
   {
     "id": "138",
@@ -1302,7 +1576,9 @@
       "水",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+    "name_en": "Slowbro",
+    "name_jp": "ヤドラン"
   },
   {
     "id": "139",
@@ -1312,7 +1588,9 @@
       "水",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png",
+    "name_en": "Slowking",
+    "name_jp": "ヤドキング"
   },
   {
     "id": "140",
@@ -1322,7 +1600,9 @@
       "水",
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/318.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/318.png",
+    "name_en": "Carvanha",
+    "name_jp": "キバニア"
   },
   {
     "id": "141",
@@ -1332,7 +1612,9 @@
       "水",
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png",
+    "name_en": "Sharpedo",
+    "name_jp": "サメハダー"
   },
   {
     "id": "142",
@@ -1341,7 +1623,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/602.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/602.png",
+    "name_en": "Tynamo",
+    "name_jp": "シビシラス"
   },
   {
     "id": "143",
@@ -1350,7 +1634,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/603.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/603.png",
+    "name_en": "Eelektrik",
+    "name_jp": "シビビール"
   },
   {
     "id": "144",
@@ -1359,7 +1645,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png",
+    "name_en": "Eelektross",
+    "name_jp": "シビルドン"
   },
   {
     "id": "145",
@@ -1368,7 +1656,9 @@
     "types": [
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+    "name_en": "Dratini",
+    "name_jp": "ミニリュウ"
   },
   {
     "id": "146",
@@ -1377,7 +1667,9 @@
     "types": [
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
+    "name_en": "Dragonair",
+    "name_jp": "ハクリュー"
   },
   {
     "id": "147",
@@ -1387,7 +1679,9 @@
       "龙",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+    "name_en": "Dragonite",
+    "name_jp": "カイリュー"
   },
   {
     "id": "148",
@@ -1397,7 +1691,9 @@
       "草",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+    "name_en": "Bulbasaur",
+    "name_jp": "フシギダネ"
   },
   {
     "id": "149",
@@ -1407,7 +1703,9 @@
       "草",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "name_en": "Ivysaur",
+    "name_jp": "フシギソウ"
   },
   {
     "id": "150",
@@ -1417,7 +1715,9 @@
       "草",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+    "name_en": "Venusaur",
+    "name_jp": "フシギバナ"
   },
   {
     "id": "151",
@@ -1426,7 +1726,9 @@
     "types": [
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+    "name_en": "Charmander",
+    "name_jp": "ヒトカゲ"
   },
   {
     "id": "152",
@@ -1435,7 +1737,9 @@
     "types": [
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+    "name_en": "Charmeleon",
+    "name_jp": "リザード"
   },
   {
     "id": "153",
@@ -1445,7 +1749,9 @@
       "火",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "name_en": "Charizard",
+    "name_jp": "リザードン"
   },
   {
     "id": "154",
@@ -1454,7 +1760,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+    "name_en": "Squirtle",
+    "name_jp": "ゼニガメ"
   },
   {
     "id": "155",
@@ -1463,7 +1771,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+    "name_en": "Wartortle",
+    "name_jp": "カメール"
   },
   {
     "id": "156",
@@ -1472,7 +1782,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+    "name_en": "Blastoise",
+    "name_jp": "カメックス"
   },
   {
     "id": "157",
@@ -1482,7 +1794,9 @@
       "地面",
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png",
+    "name_en": "Stunfisk",
+    "name_jp": "マッギョ"
   },
   {
     "id": "158",
@@ -1491,7 +1805,9 @@
     "types": [
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
+    "name_en": "Furfrou",
+    "name_jp": "トリミアン"
   },
   {
     "id": "159",
@@ -1501,7 +1817,9 @@
       "恶",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/686.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/686.png",
+    "name_en": "Inkay",
+    "name_jp": "マーイーカ"
   },
   {
     "id": "160",
@@ -1511,7 +1829,9 @@
       "恶",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png",
+    "name_en": "Malamar",
+    "name_jp": "カラマネロ"
   },
   {
     "id": "161",
@@ -1521,7 +1841,9 @@
       "毒",
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/690.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/690.png",
+    "name_en": "Skrelp",
+    "name_jp": "クズモー"
   },
   {
     "id": "162",
@@ -1531,7 +1853,9 @@
       "毒",
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png",
+    "name_en": "Dragalge",
+    "name_jp": "ドラミドロ"
   },
   {
     "id": "163",
@@ -1540,7 +1864,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/692.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/692.png",
+    "name_en": "Clauncher",
+    "name_jp": "ウデッポウ"
   },
   {
     "id": "164",
@@ -1549,7 +1875,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/693.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/693.png",
+    "name_en": "Clawitzer",
+    "name_jp": "ブロスター"
   },
   {
     "id": "165",
@@ -1558,7 +1886,9 @@
     "types": [
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/704.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/704.png",
+    "name_en": "Goomy",
+    "name_jp": "ヌメラ"
   },
   {
     "id": "166",
@@ -1567,7 +1897,9 @@
     "types": [
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/705.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/705.png",
+    "name_en": "Sliggoo",
+    "name_jp": "ヌメイル"
   },
   {
     "id": "167",
@@ -1576,7 +1908,9 @@
     "types": [
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/706.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/706.png",
+    "name_en": "Goodra",
+    "name_jp": "ヌメルゴン"
   },
   {
     "id": "168",
@@ -1586,7 +1920,9 @@
       "冰",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/225.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/225.png",
+    "name_en": "Delibird",
+    "name_jp": "デリバード"
   },
   {
     "id": "169",
@@ -1595,7 +1931,9 @@
     "types": [
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/361.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/361.png",
+    "name_en": "Snorunt",
+    "name_jp": "ユキワラシ"
   },
   {
     "id": "170",
@@ -1604,7 +1942,9 @@
     "types": [
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
+    "name_en": "Glalie",
+    "name_jp": "オニゴーリ"
   },
   {
     "id": "171",
@@ -1614,7 +1954,9 @@
       "冰",
       "幽灵"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png",
+    "name_en": "Froslass",
+    "name_jp": "ユキメノコ"
   },
   {
     "id": "172",
@@ -1624,7 +1966,9 @@
       "草",
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/459.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/459.png",
+    "name_en": "Snover",
+    "name_jp": "ユキカブリ"
   },
   {
     "id": "173",
@@ -1634,7 +1978,9 @@
       "草",
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/460.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/460.png",
+    "name_en": "Abomasnow",
+    "name_jp": "ユキノオー"
   },
   {
     "id": "174",
@@ -1643,7 +1989,9 @@
     "types": [
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/712.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/712.png",
+    "name_en": "Bergmite",
+    "name_jp": "カチコール"
   },
   {
     "id": "175",
@@ -1652,7 +2000,9 @@
     "types": [
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/713.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/713.png",
+    "name_en": "Avalugg",
+    "name_jp": "クレベース"
   },
   {
     "id": "176",
@@ -1662,7 +2012,9 @@
       "虫",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+    "name_en": "Scyther",
+    "name_jp": "ストライク"
   },
   {
     "id": "177",
@@ -1672,7 +2024,9 @@
       "虫",
       "钢"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
+    "name_en": "Scizor",
+    "name_jp": "ハッサム"
   },
   {
     "id": "178",
@@ -1681,7 +2035,9 @@
     "types": [
       "虫"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+    "name_en": "Pinsir",
+    "name_jp": "カイロス"
   },
   {
     "id": "179",
@@ -1691,7 +2047,9 @@
       "虫",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
+    "name_en": "Heracross",
+    "name_jp": "ヘラクロス"
   },
   {
     "id": "180",
@@ -1701,7 +2059,9 @@
       "电",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/587.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/587.png",
+    "name_en": "Emolga",
+    "name_jp": "エモンガ"
   },
   {
     "id": "181",
@@ -1711,7 +2071,9 @@
       "格斗",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/701.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/701.png",
+    "name_en": "Hawlucha",
+    "name_jp": "ルチャブル"
   },
   {
     "id": "182",
@@ -1721,7 +2083,9 @@
       "幽灵",
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/708.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/708.png",
+    "name_en": "Phantump",
+    "name_jp": "ボクレー"
   },
   {
     "id": "183",
@@ -1731,7 +2095,9 @@
       "幽灵",
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/709.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/709.png",
+    "name_en": "Trevenant",
+    "name_jp": "オーロット"
   },
   {
     "id": "184",
@@ -1741,7 +2107,9 @@
       "恶",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/559.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/559.png",
+    "name_en": "Scraggy",
+    "name_jp": "ズルッグ"
   },
   {
     "id": "185",
@@ -1751,7 +2119,9 @@
       "恶",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png",
+    "name_en": "Scrafty",
+    "name_jp": "ズルズキン"
   },
   {
     "id": "186",
@@ -1761,7 +2131,9 @@
       "飞行",
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png",
+    "name_en": "Noibat",
+    "name_jp": "オンバット"
   },
   {
     "id": "187",
@@ -1771,7 +2143,9 @@
       "飞行",
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png",
+    "name_en": "Noivern",
+    "name_jp": "オンバーン"
   },
   {
     "id": "188",
@@ -1781,7 +2155,9 @@
       "钢",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/707.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/707.png",
+    "name_en": "Klefki",
+    "name_jp": "クレッフィ"
   },
   {
     "id": "189",
@@ -1791,7 +2167,9 @@
       "幽灵",
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/607.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/607.png",
+    "name_en": "Litwick",
+    "name_jp": "ヒトモシ"
   },
   {
     "id": "190",
@@ -1801,7 +2179,9 @@
       "幽灵",
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/608.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/608.png",
+    "name_en": "Lampent",
+    "name_jp": "ランプラー"
   },
   {
     "id": "191",
@@ -1811,7 +2191,9 @@
       "幽灵",
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png",
+    "name_en": "Chandelure",
+    "name_jp": "シャンデラ"
   },
   {
     "id": "192",
@@ -1821,7 +2203,9 @@
       "岩石",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+    "name_en": "Aerodactyl",
+    "name_jp": "プテラ"
   },
   {
     "id": "193",
@@ -1831,7 +2215,9 @@
       "岩石",
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/696.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/696.png",
+    "name_en": "Tyrunt",
+    "name_jp": "チゴラス"
   },
   {
     "id": "194",
@@ -1841,7 +2227,9 @@
       "岩石",
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/697.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/697.png",
+    "name_en": "Tyrantrum",
+    "name_jp": "ガチゴラス"
   },
   {
     "id": "195",
@@ -1851,7 +2239,9 @@
       "岩石",
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/698.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/698.png",
+    "name_en": "Amaura",
+    "name_jp": "アマルス"
   },
   {
     "id": "196",
@@ -1861,7 +2251,9 @@
       "岩石",
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/699.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/699.png",
+    "name_en": "Aurorus",
+    "name_jp": "アマルルガ"
   },
   {
     "id": "197",
@@ -1871,7 +2263,9 @@
       "岩石",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+    "name_en": "Onix",
+    "name_jp": "イワーク"
   },
   {
     "id": "198",
@@ -1881,7 +2275,9 @@
       "钢",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
+    "name_en": "Steelix",
+    "name_jp": "ハガネール"
   },
   {
     "id": "199",
@@ -1891,7 +2287,9 @@
       "钢",
       "岩石"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/304.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/304.png",
+    "name_en": "Aron",
+    "name_jp": "ココドラ"
   },
   {
     "id": "200",
@@ -1901,7 +2299,9 @@
       "钢",
       "岩石"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/305.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/305.png",
+    "name_en": "Lairon",
+    "name_jp": "コドラ"
   },
   {
     "id": "201",
@@ -1911,7 +2311,9 @@
       "钢",
       "岩石"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png",
+    "name_en": "Aggron",
+    "name_jp": "ボスゴドラ"
   },
   {
     "id": "202",
@@ -1921,7 +2323,9 @@
       "电",
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/694.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/694.png",
+    "name_en": "Helioptile",
+    "name_jp": "エリキテル"
   },
   {
     "id": "203",
@@ -1931,7 +2335,9 @@
       "电",
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/695.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/695.png",
+    "name_en": "Heliolisk",
+    "name_jp": "エレザード"
   },
   {
     "id": "204",
@@ -1941,7 +2347,9 @@
       "幽灵",
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/710.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/710.png",
+    "name_en": "Pumpkaboo",
+    "name_jp": "バケッチャ"
   },
   {
     "id": "205",
@@ -1951,7 +2359,9 @@
       "幽灵",
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png",
+    "name_en": "Gourgeist",
+    "name_jp": "パンプジン"
   },
   {
     "id": "206",
@@ -1961,7 +2371,9 @@
       "岩石",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/246.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/246.png",
+    "name_en": "Larvitar",
+    "name_jp": "ヨーギラス"
   },
   {
     "id": "207",
@@ -1971,7 +2383,9 @@
       "岩石",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/247.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/247.png",
+    "name_en": "Pupitar",
+    "name_jp": "サナギラス"
   },
   {
     "id": "208",
@@ -1981,7 +2395,9 @@
       "岩石",
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
+    "name_en": "Tyranitar",
+    "name_jp": "バンギラス"
   },
   {
     "id": "209",
@@ -1990,7 +2406,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png",
+    "name_en": "Froakie",
+    "name_jp": "ケロマツ"
   },
   {
     "id": "210",
@@ -1999,7 +2417,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/657.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/657.png",
+    "name_en": "Frogadier",
+    "name_jp": "ゲコガシラ"
   },
   {
     "id": "211",
@@ -2009,7 +2429,9 @@
       "水",
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
+    "name_en": "Greninja",
+    "name_jp": "ゲッコウガ"
   },
   {
     "id": "212",
@@ -2018,7 +2440,9 @@
     "types": [
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/870.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/870.png",
+    "name_en": "Falinks",
+    "name_jp": "タイレーツ"
   },
   {
     "id": "213",
@@ -2027,7 +2451,9 @@
     "types": [
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/650.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/650.png",
+    "name_en": "Chespin",
+    "name_jp": "ハリマロン"
   },
   {
     "id": "214",
@@ -2036,7 +2462,9 @@
     "types": [
       "草"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/651.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/651.png",
+    "name_en": "Quilladin",
+    "name_jp": "ハリボーグ"
   },
   {
     "id": "215",
@@ -2046,7 +2474,9 @@
       "草",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png",
+    "name_en": "Chesnaught",
+    "name_jp": "ブリガロン"
   },
   {
     "id": "216",
@@ -2056,7 +2486,9 @@
       "钢",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png",
+    "name_en": "Skarmory",
+    "name_jp": "エアームド"
   },
   {
     "id": "217",
@@ -2065,7 +2497,9 @@
     "types": [
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png",
+    "name_en": "Fennekin",
+    "name_jp": "フォッコ"
   },
   {
     "id": "218",
@@ -2074,7 +2508,9 @@
     "types": [
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/654.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/654.png",
+    "name_en": "Braixen",
+    "name_jp": "テールナー"
   },
   {
     "id": "219",
@@ -2084,7 +2520,9 @@
       "火",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
+    "name_en": "Delphox",
+    "name_jp": "マフォクシー"
   },
   {
     "id": "220",
@@ -2093,7 +2531,9 @@
     "types": [
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/371.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/371.png",
+    "name_en": "Bagon",
+    "name_jp": "タツベイ"
   },
   {
     "id": "221",
@@ -2102,7 +2542,9 @@
     "types": [
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/372.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/372.png",
+    "name_en": "Shelgon",
+    "name_jp": "コモルー"
   },
   {
     "id": "222",
@@ -2112,7 +2554,9 @@
       "龙",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png",
+    "name_en": "Salamence",
+    "name_jp": "ボーマンダ"
   },
   {
     "id": "223",
@@ -2121,7 +2565,9 @@
     "types": [
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+    "name_en": "Kangaskhan",
+    "name_jp": "ガルーラ"
   },
   {
     "id": "224",
@@ -2131,7 +2577,9 @@
       "一般",
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/780.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/780.png",
+    "name_en": "Drampa",
+    "name_jp": "ジジーロン"
   },
   {
     "id": "225",
@@ -2141,7 +2589,9 @@
       "钢",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/374.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/374.png",
+    "name_en": "Beldum",
+    "name_jp": "ダンバル"
   },
   {
     "id": "226",
@@ -2151,7 +2601,9 @@
       "钢",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/375.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/375.png",
+    "name_en": "Metang",
+    "name_jp": "メタング"
   },
   {
     "id": "227",
@@ -2161,7 +2613,9 @@
       "钢",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png",
+    "name_en": "Metagross",
+    "name_jp": "メタグロス"
   },
   {
     "id": "228",
@@ -2170,7 +2624,9 @@
     "types": [
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/716.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/716.png",
+    "name_en": "Xerneas",
+    "name_jp": "ゼルネアス"
   },
   {
     "id": "229",
@@ -2180,7 +2636,9 @@
       "恶",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/717.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/717.png",
+    "name_en": "Yveltal",
+    "name_jp": "イベルタル"
   },
   {
     "id": "230",
@@ -2190,7 +2648,9 @@
       "龙",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png",
+    "name_en": "Zygarde",
+    "name_jp": "ジガルデ"
   },
   {
     "id": "231",
@@ -2200,7 +2660,9 @@
       "岩石",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/719.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/719.png",
+    "name_en": "Diancie",
+    "name_jp": "ディアンシー"
   },
   {
     "id": "232",
@@ -2209,7 +2671,9 @@
     "types": [
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+    "name_en": "Mewtwo",
+    "name_jp": "ミュウツー"
   },
   {
     "id": "001",
@@ -2219,7 +2683,9 @@
       "草",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png",
+    "name_en": "Meganium",
+    "name_jp": "メガニウム"
   },
   {
     "id": "002",
@@ -2229,7 +2695,9 @@
       "火",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/500.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/500.png",
+    "name_en": "Emboar",
+    "name_jp": "エンブオー"
   },
   {
     "id": "003",
@@ -2239,7 +2707,9 @@
       "水",
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png",
+    "name_en": "Feraligatr",
+    "name_jp": "オーダイル"
   },
   {
     "id": "004",
@@ -2249,7 +2719,9 @@
       "虫",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+    "name_en": "Beedrill",
+    "name_jp": "スピアー"
   },
   {
     "id": "005",
@@ -2259,7 +2731,9 @@
       "一般",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+    "name_en": "Pidgeot",
+    "name_jp": "ピジョット"
   },
   {
     "id": "006",
@@ -2269,7 +2743,9 @@
       "电",
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
+    "name_en": "Ampharos",
+    "name_jp": "デンリュウ"
   },
   {
     "id": "007",
@@ -2279,7 +2755,9 @@
       "水",
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+    "name_en": "Gyarados",
+    "name_jp": "ギャラドス"
   },
   {
     "id": "008",
@@ -2289,7 +2767,9 @@
       "岩石",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png",
+    "name_en": "Barbaracle",
+    "name_jp": "ガメノデス"
   },
   {
     "id": "009",
@@ -2299,7 +2779,9 @@
       "水",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+    "name_en": "Starmie",
+    "name_jp": "スターミー"
   },
   {
     "id": "010",
@@ -2308,7 +2790,9 @@
     "types": [
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/670.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/670.png",
+    "name_en": "Floette",
+    "name_jp": "フラエッテ"
   },
   {
     "id": "011",
@@ -2318,7 +2802,9 @@
       "火",
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png",
+    "name_en": "Pyroar",
+    "name_jp": "カエンジシ"
   },
   {
     "id": "012",
@@ -2328,7 +2814,9 @@
       "妖精",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+    "name_en": "Clefable",
+    "name_jp": "ピクシー"
   },
   {
     "id": "013",
@@ -2337,7 +2825,9 @@
     "types": [
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+    "name_en": "Alakazam",
+    "name_jp": "フーディン"
   },
   {
     "id": "014",
@@ -2347,7 +2837,9 @@
       "幽灵",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+    "name_en": "Gengar",
+    "name_jp": "ゲンガー"
   },
   {
     "id": "015",
@@ -2357,7 +2849,9 @@
       "虫",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png",
+    "name_en": "Scolipede",
+    "name_jp": "ペンドラー"
   },
   {
     "id": "016",
@@ -2367,7 +2861,9 @@
       "草",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+    "name_en": "Victreebel",
+    "name_jp": "ウツボット"
   },
   {
     "id": "017",
@@ -2377,7 +2873,9 @@
       "格斗",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png",
+    "name_en": "Medicham",
+    "name_jp": "チャーレム"
   },
   {
     "id": "018",
@@ -2386,7 +2884,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png",
+    "name_en": "Manectric",
+    "name_jp": "ライボルト"
   },
   {
     "id": "019",
@@ -2396,7 +2896,9 @@
       "超能力",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
+    "name_en": "Gardevoir",
+    "name_jp": "サーナイト"
   },
   {
     "id": "020",
@@ -2406,7 +2908,9 @@
       "超能力",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png",
+    "name_en": "Gallade",
+    "name_jp": "エルレイド"
   },
   {
     "id": "021",
@@ -2416,7 +2920,9 @@
       "恶",
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png",
+    "name_en": "Houndoom",
+    "name_jp": "ヘルガー"
   },
   {
     "id": "022",
@@ -2426,7 +2932,9 @@
       "龙",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png",
+    "name_en": "Altaria",
+    "name_jp": "チルタリス"
   },
   {
     "id": "023",
@@ -2436,7 +2944,9 @@
       "一般",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/531.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/531.png",
+    "name_en": "Audino",
+    "name_jp": "タブンネ"
   },
   {
     "id": "024",
@@ -2446,7 +2956,9 @@
       "一般",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png",
+    "name_en": "Lopunny",
+    "name_jp": "ミミロップ"
   },
   {
     "id": "025",
@@ -2455,7 +2967,9 @@
     "types": [
       "幽灵"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png",
+    "name_en": "Banette",
+    "name_jp": "ジュペッタ"
   },
   {
     "id": "026",
@@ -2465,7 +2979,9 @@
       "火",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png",
+    "name_en": "Camerupt",
+    "name_jp": "バクーダ"
   },
   {
     "id": "027",
@@ -2475,7 +2991,9 @@
       "地面",
       "钢"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/530.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/530.png",
+    "name_en": "Excadrill",
+    "name_jp": "ドリュウズ"
   },
   {
     "id": "028",
@@ -2485,7 +3003,9 @@
       "龙",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png",
+    "name_en": "Garchomp",
+    "name_jp": "ガブリアス"
   },
   {
     "id": "029",
@@ -2495,7 +3015,9 @@
       "恶",
       "幽灵"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png",
+    "name_en": "Sableye",
+    "name_jp": "ヤミラミ"
   },
   {
     "id": "030",
@@ -2505,7 +3027,9 @@
       "钢",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
+    "name_en": "Mawile",
+    "name_jp": "クチート"
   },
   {
     "id": "031",
@@ -2514,7 +3038,9 @@
     "types": [
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png",
+    "name_en": "Absol",
+    "name_jp": "アブソル"
   },
   {
     "id": "032",
@@ -2524,7 +3050,9 @@
       "格斗",
       "钢"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png",
+    "name_en": "Lucario",
+    "name_jp": "ルカリオ"
   },
   {
     "id": "033",
@@ -2534,7 +3062,9 @@
       "水",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+    "name_en": "Slowbro",
+    "name_jp": "ヤドラン"
   },
   {
     "id": "034",
@@ -2544,7 +3074,9 @@
       "水",
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png",
+    "name_en": "Sharpedo",
+    "name_jp": "サメハダー"
   },
   {
     "id": "035",
@@ -2553,7 +3085,9 @@
     "types": [
       "电"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png",
+    "name_en": "Eelektross",
+    "name_jp": "シビルドン"
   },
   {
     "id": "036",
@@ -2563,7 +3097,9 @@
       "龙",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+    "name_en": "Dragonite",
+    "name_jp": "カイリュー"
   },
   {
     "id": "037",
@@ -2573,7 +3109,9 @@
       "草",
       "毒"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+    "name_en": "Venusaur",
+    "name_jp": "フシギバナ"
   },
   {
     "id": "038",
@@ -2583,7 +3121,9 @@
       "火",
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "name_en": "Charizard",
+    "name_jp": "リザードン"
   },
   {
     "id": "039",
@@ -2593,7 +3133,9 @@
       "火",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "name_en": "Charizard",
+    "name_jp": "リザードン"
   },
   {
     "id": "040",
@@ -2602,7 +3144,9 @@
     "types": [
       "水"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+    "name_en": "Blastoise",
+    "name_jp": "カメックス"
   },
   {
     "id": "041",
@@ -2612,7 +3156,9 @@
       "恶",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png",
+    "name_en": "Malamar",
+    "name_jp": "カラマネロ"
   },
   {
     "id": "042",
@@ -2622,7 +3168,9 @@
       "毒",
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png",
+    "name_en": "Dragalge",
+    "name_jp": "ドラミドロ"
   },
   {
     "id": "043",
@@ -2631,7 +3179,9 @@
     "types": [
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
+    "name_en": "Glalie",
+    "name_jp": "オニゴーリ"
   },
   {
     "id": "044",
@@ -2641,7 +3191,9 @@
       "冰",
       "幽灵"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png",
+    "name_en": "Froslass",
+    "name_jp": "ユキメノコ"
   },
   {
     "id": "045",
@@ -2651,7 +3203,9 @@
       "草",
       "冰"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/460.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/460.png",
+    "name_en": "Abomasnow",
+    "name_jp": "ユキノオー"
   },
   {
     "id": "046",
@@ -2661,7 +3215,9 @@
       "虫",
       "钢"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
+    "name_en": "Scizor",
+    "name_jp": "ハッサム"
   },
   {
     "id": "047",
@@ -2671,7 +3227,9 @@
       "虫",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+    "name_en": "Pinsir",
+    "name_jp": "カイロス"
   },
   {
     "id": "048",
@@ -2681,7 +3239,9 @@
       "虫",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
+    "name_en": "Heracross",
+    "name_jp": "ヘラクロス"
   },
   {
     "id": "049",
@@ -2691,7 +3251,9 @@
       "格斗",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/701.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/701.png",
+    "name_en": "Hawlucha",
+    "name_jp": "ルチャブル"
   },
   {
     "id": "050",
@@ -2701,7 +3263,9 @@
       "恶",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png",
+    "name_en": "Scrafty",
+    "name_jp": "ズルズキン"
   },
   {
     "id": "051",
@@ -2711,7 +3275,9 @@
       "幽灵",
       "火"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png",
+    "name_en": "Chandelure",
+    "name_jp": "シャンデラ"
   },
   {
     "id": "052",
@@ -2721,7 +3287,9 @@
       "岩石",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+    "name_en": "Aerodactyl",
+    "name_jp": "プテラ"
   },
   {
     "id": "053",
@@ -2731,7 +3299,9 @@
       "钢",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
+    "name_en": "Steelix",
+    "name_jp": "ハガネール"
   },
   {
     "id": "054",
@@ -2740,7 +3310,9 @@
     "types": [
       "钢"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png",
+    "name_en": "Aggron",
+    "name_jp": "ボスゴドラ"
   },
   {
     "id": "055",
@@ -2750,7 +3322,9 @@
       "岩石",
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
+    "name_en": "Tyranitar",
+    "name_jp": "バンギラス"
   },
   {
     "id": "056",
@@ -2760,7 +3334,9 @@
       "水",
       "恶"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
+    "name_en": "Greninja",
+    "name_jp": "ゲッコウガ"
   },
   {
     "id": "057",
@@ -2769,7 +3345,9 @@
     "types": [
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/870.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/870.png",
+    "name_en": "Falinks",
+    "name_jp": "タイレーツ"
   },
   {
     "id": "058",
@@ -2779,7 +3357,9 @@
       "草",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png",
+    "name_en": "Chesnaught",
+    "name_jp": "ブリガロン"
   },
   {
     "id": "059",
@@ -2789,7 +3369,9 @@
       "钢",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png",
+    "name_en": "Skarmory",
+    "name_jp": "エアームド"
   },
   {
     "id": "060",
@@ -2799,7 +3381,9 @@
       "火",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
+    "name_en": "Delphox",
+    "name_jp": "マフォクシー"
   },
   {
     "id": "061",
@@ -2809,7 +3393,9 @@
       "龙",
       "飞行"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png",
+    "name_en": "Salamence",
+    "name_jp": "ボーマンダ"
   },
   {
     "id": "062",
@@ -2818,7 +3404,9 @@
     "types": [
       "一般"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+    "name_en": "Kangaskhan",
+    "name_jp": "ガルーラ"
   },
   {
     "id": "063",
@@ -2828,7 +3416,9 @@
       "一般",
       "龙"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/780.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/780.png",
+    "name_en": "Drampa",
+    "name_jp": "ジジーロン"
   },
   {
     "id": "064",
@@ -2838,7 +3428,9 @@
       "钢",
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png",
+    "name_en": "Metagross",
+    "name_jp": "メタグロス"
   },
   {
     "id": "065",
@@ -2848,7 +3440,9 @@
       "龙",
       "地面"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png",
+    "name_en": "Zygarde",
+    "name_jp": "ジガルデ"
   },
   {
     "id": "066",
@@ -2858,7 +3452,9 @@
       "岩石",
       "妖精"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/719.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/719.png",
+    "name_en": "Diancie",
+    "name_jp": "ディアンシー"
   },
   {
     "id": "067",
@@ -2868,7 +3464,9 @@
       "超能力",
       "格斗"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+    "name_en": "Mewtwo",
+    "name_jp": "ミュウツー"
   },
   {
     "id": "068",
@@ -2877,6 +3475,8 @@
     "types": [
       "超能力"
     ],
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+    "name_en": "Mewtwo",
+    "name_jp": "ミュウツー"
   }
 ]

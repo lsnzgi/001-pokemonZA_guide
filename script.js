@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Ensure elements exist before setting properties
         if (fcImg) fcImg.src = p.image;
         if (fcName) fcName.innerText = p.name;
-        if (fcNameBack) fcNameBack.innerText = `#${p.id} ${p.name}`;
+        if (fcNameBack) fcNameBack.innerHTML = `#${p.id} ${p.name}<br><span style='font-size: 1rem; color: #666; font-weight: normal;'>${p.name_en || ''} ${p.name_jp || ''}</span>`;
 
         if (fcTypes) {
             // Generate types with tooltip data for hover
@@ -568,6 +568,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <img src="${pokemon.image}" alt="${pokemon.name}" class="detail-img">
                 <div>
                     <h2>#${pokemon.id} ${pokemon.name}</h2>
+<p style='color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;'>${pokemon.name_en || ''} | ${pokemon.name_jp || ''}</p>
                     <div class="pokemon-types" style="justify-content: flex-start; margin-top: 0.5rem;">${typesHtml}</div>
                 </div>
             </div>
