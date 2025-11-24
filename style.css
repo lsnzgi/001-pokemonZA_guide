@@ -1,3 +1,5 @@
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/fusion-pixel-12px-monospaced-sc/index.css');
+
 :root {
     /* Modern Light Theme - Pale Gradients */
     --bg-color: #F8F9FA;
@@ -21,10 +23,14 @@
 }
 
 body {
-    font-family: 'Outfit', 'Noto Sans SC', sans-serif;
+    font-family: 'Fusion Pixel 12px Monospaced SC', 'Outfit', 'Noto Sans SC', sans-serif;
     background-color: var(--bg-color);
-    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-    /* Subtle pale gradient */
+    /* Layered background: Dot grid + Gradient */
+    background-image:
+        radial-gradient(#cbd5e0 1px, transparent 1px),
+        linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    background-size: 20px 20px, 100% 100%;
+    background-attachment: fixed;
     color: var(--text-color);
     line-height: 1.6;
     min-height: 100vh;
@@ -38,8 +44,21 @@ header {
     /* Changed from sticky to relative */
     z-index: 100;
     backdrop-filter: blur(12px);
-    border-bottom: var(--glass-border);
+    z-index: 100;
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     box-shadow: var(--glass-shadow);
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: repeating-linear-gradient(90deg, var(--accent-color) 0, var(--accent-color) 4px, transparent 4px, transparent 8px);
+    opacity: 0.3;
 }
 
 h1 {
@@ -51,6 +70,7 @@ h1 {
 
 .accent {
     background: linear-gradient(45deg, var(--accent-color), var(--accent-secondary));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
@@ -66,21 +86,23 @@ h1 {
 
 .search-bar input {
     padding: 0.8rem 1.5rem;
-    border-radius: 50px;
-    border: 2px solid #D8BFD8;
-    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    border: 2px solid #CBD5E0;
+    background: rgba(255, 255, 255, 0.9);
     color: var(--text-color);
     width: 100%;
     max-width: 300px;
     font-size: 1rem;
     transition: var(--transition);
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.05);
+    font-family: inherit;
 }
 
 .search-bar input:focus {
     outline: none;
-    border-color: var(--accent-secondary);
-    box-shadow: 0 0 15px rgba(255, 105, 180, 0.3);
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 0 rgba(56, 178, 172, 0.2);
+    transform: translateY(-2px);
 }
 
 .toggles {
@@ -125,6 +147,43 @@ h1 {
     overflow: hidden;
     backdrop-filter: blur(5px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Tech Accents for Cards */
+.pokemon-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid var(--accent-color);
+    border-left: 2px solid var(--accent-color);
+    border-top-left-radius: var(--border-radius);
+    opacity: 0.5;
+    transition: var(--transition);
+}
+
+.pokemon-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    border-bottom: 2px solid var(--accent-secondary);
+    border-right: 2px solid var(--accent-secondary);
+    border-bottom-right-radius: var(--border-radius);
+    opacity: 0.5;
+    transition: var(--transition);
+}
+
+.pokemon-card:hover::before,
+.pokemon-card:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    border-radius: var(--border-radius);
 }
 
 .pokemon-card:hover {
@@ -402,8 +461,13 @@ body.hide-types .pokemon-card:hover .pokemon-types {
     background: white;
     color: var(--accent-color);
     border-color: var(--accent-color);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 0 rgba(56, 178, 172, 0.2);
     transform: translateY(-2px);
+}
+
+.nav-btn:active {
+    transform: translateY(2px);
+    box-shadow: none;
 }
 
 /* Filter Bar */
@@ -418,23 +482,23 @@ body.hide-types .pokemon-card:hover .pokemon-types {
 
 .filter-badge {
     padding: 0.3rem 0.8rem;
-    border-radius: 20px;
+    border-radius: 8px;
     font-size: 0.8rem;
     cursor: pointer;
-    opacity: 0.7;
+    opacity: 0.8;
     transition: var(--transition);
-    border: 1px solid transparent;
-    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #CBD5E0;
+    background: rgba(255, 255, 255, 0.8);
     color: #333;
 }
 
 .filter-badge:hover,
 .filter-badge.active {
     opacity: 1;
-    transform: scale(1.1);
-    border-color: var(--accent-secondary);
+    transform: translateY(-2px);
+    border-color: var(--accent-color);
     background: white;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 /* View Sections */
@@ -510,6 +574,35 @@ body.hide-types .pokemon-card:hover .pokemon-types {
     padding: 2rem;
     overflow: hidden;
     /* Ensure rounded corners clip content */
+    position: relative;
+}
+
+.flashcard-front::before,
+.flashcard-back::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid var(--accent-color);
+    border-left: 3px solid var(--accent-color);
+    border-top-left-radius: 10px;
+    opacity: 0.6;
+}
+
+.flashcard-front::after,
+.flashcard-back::after {
+    content: '';
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    border-bottom: 3px solid var(--accent-secondary);
+    border-right: 3px solid var(--accent-secondary);
+    border-bottom-right-radius: 10px;
+    opacity: 0.6;
 }
 
 .flashcard-front img {
@@ -594,9 +687,15 @@ body.hide-types .pokemon-card:hover .pokemon-types {
 
 .fc-btn.action {
     background: var(--accent-color);
-    color: #4B0082;
+    color: white;
     border-color: var(--accent-color);
-    box-shadow: 0 5px 15px rgba(173, 255, 47, 0.4);
+    box-shadow: 0 4px 0 #2C7A7B;
+    /* Darker Teal */
+}
+
+.fc-btn.action:active {
+    transform: translateY(4px);
+    box-shadow: none;
 }
 
 /* Games */
@@ -630,7 +729,12 @@ body.hide-types .pokemon-card:hover .pokemon-types {
 .game-btn:hover {
     border-color: var(--accent-color);
     transform: translateY(-4px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 0 rgba(56, 178, 172, 0.2);
+}
+
+.game-btn:active {
+    transform: translateY(0);
+    box-shadow: none;
 }
 
 .game-icon {
@@ -1266,25 +1370,117 @@ footer {
         height: 120px;
     }
 }
+
 /* Dynamic Type Colors for Game Options */
-.option-btn.type-一般 { background-color: #A8A77A; border-color: #A8A77A; color: white; }
-.option-btn.type-火 { background-color: #EE8130; border-color: #EE8130; color: white; }
-.option-btn.type-水 { background-color: #6390F0; border-color: #6390F0; color: white; }
-.option-btn.type-草 { background-color: #7AC74C; border-color: #7AC74C; color: white; }
-.option-btn.type-电 { background-color: #F7D02C; border-color: #F7D02C; color: white; text-shadow: 0 1px 2px rgba(0,0,0,0.2); }
-.option-btn.type-冰 { background-color: #96D9D6; border-color: #96D9D6; color: white; text-shadow: 0 1px 2px rgba(0,0,0,0.2); }
-.option-btn.type-格斗 { background-color: #C22E28; border-color: #C22E28; color: white; }
-.option-btn.type-毒 { background-color: #A33EA1; border-color: #A33EA1; color: white; }
-.option-btn.type-地面 { background-color: #E2BF65; border-color: #E2BF65; color: white; }
-.option-btn.type-飞行 { background-color: #A98FF3; border-color: #A98FF3; color: white; }
-.option-btn.type-超能力 { background-color: #F95587; border-color: #F95587; color: white; }
-.option-btn.type-虫 { background-color: #A6B91A; border-color: #A6B91A; color: white; }
-.option-btn.type-岩石 { background-color: #B6A136; border-color: #B6A136; color: white; }
-.option-btn.type-幽灵 { background-color: #735797; border-color: #735797; color: white; }
-.option-btn.type-龙 { background-color: #6F35FC; border-color: #6F35FC; color: white; }
-.option-btn.type-恶 { background-color: #705746; border-color: #705746; color: white; }
-.option-btn.type-钢 { background-color: #B7B7CE; border-color: #B7B7CE; color: white; }
-.option-btn.type-妖精 { background-color: #D685AD; border-color: #D685AD; color: white; }
+.option-btn.type-一般 {
+    background-color: #A8A77A;
+    border-color: #A8A77A;
+    color: white;
+}
+
+.option-btn.type-火 {
+    background-color: #EE8130;
+    border-color: #EE8130;
+    color: white;
+}
+
+.option-btn.type-水 {
+    background-color: #6390F0;
+    border-color: #6390F0;
+    color: white;
+}
+
+.option-btn.type-草 {
+    background-color: #7AC74C;
+    border-color: #7AC74C;
+    color: white;
+}
+
+.option-btn.type-电 {
+    background-color: #F7D02C;
+    border-color: #F7D02C;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.option-btn.type-冰 {
+    background-color: #96D9D6;
+    border-color: #96D9D6;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.option-btn.type-格斗 {
+    background-color: #C22E28;
+    border-color: #C22E28;
+    color: white;
+}
+
+.option-btn.type-毒 {
+    background-color: #A33EA1;
+    border-color: #A33EA1;
+    color: white;
+}
+
+.option-btn.type-地面 {
+    background-color: #E2BF65;
+    border-color: #E2BF65;
+    color: white;
+}
+
+.option-btn.type-飞行 {
+    background-color: #A98FF3;
+    border-color: #A98FF3;
+    color: white;
+}
+
+.option-btn.type-超能力 {
+    background-color: #F95587;
+    border-color: #F95587;
+    color: white;
+}
+
+.option-btn.type-虫 {
+    background-color: #A6B91A;
+    border-color: #A6B91A;
+    color: white;
+}
+
+.option-btn.type-岩石 {
+    background-color: #B6A136;
+    border-color: #B6A136;
+    color: white;
+}
+
+.option-btn.type-幽灵 {
+    background-color: #735797;
+    border-color: #735797;
+    color: white;
+}
+
+.option-btn.type-龙 {
+    background-color: #6F35FC;
+    border-color: #6F35FC;
+    color: white;
+}
+
+.option-btn.type-恶 {
+    background-color: #705746;
+    border-color: #705746;
+    color: white;
+}
+
+.option-btn.type-钢 {
+    background-color: #B7B7CE;
+    border-color: #B7B7CE;
+    color: white;
+}
+
+.option-btn.type-妖精 {
+    background-color: #D685AD;
+    border-color: #D685AD;
+    color: white;
+}
 
 .option-btn[class*="type-"]:hover {
     filter: brightness(1.1);
@@ -1292,7 +1488,7 @@ footer {
 }
 
 .option-btn[class*="type-"].selected {
-    box-shadow: inset 0 3px 6px rgba(0,0,0,0.3), 0 0 0 2px white;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.3), 0 0 0 2px white;
     transform: scale(0.95);
     filter: brightness(0.9);
 }
