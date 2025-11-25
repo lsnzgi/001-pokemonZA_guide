@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>宝可梦传说 Z-A 图鉴记忆助手</title>
+    <title>Legends ZA Pocket Guide</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,15 +16,15 @@
 <body>
     <header>
         <div class="header-content">
-            <h1>LEGENDS <span class="accent">Z-A</span> MEMORY</h1>
+            <h1>LEGENDS <span class="accent">ZA</span> POCKET GUIDE</h1>
             <p>密阿雷图鉴记忆助手</p>
         </div>
 
         <nav class="main-nav">
-            <button class="nav-btn active" data-tab="grid">图鉴 (Pokedex)</button>
-            <button class="nav-btn" data-tab="flashcards">卡片 (Flashcards)</button>
-            <button class="nav-btn" data-tab="games">游戏 (Games)</button>
-            <button class="nav-btn" data-tab="cheatsheet">相性表 (Cheatsheet)</button>
+            <button class="nav-btn active" data-tab="grid">图鉴</button>
+            <button class="nav-btn" data-tab="flashcards">卡片</button>
+            <button class="nav-btn" data-tab="games">游戏</button>
+            <button class="nav-btn" data-tab="cheatsheet">相性表</button>
         </nav>
 
         <div class="controls" id="grid-controls">
@@ -63,7 +63,7 @@
                         <div class="flashcard-front">
                             <img id="fc-img" src="" alt="Pokemon">
                             <h2 id="fc-name">???</h2>
-                            <p class="fc-hint">点击翻转 (Click to Flip)</p>
+                            <p class="fc-hint">点击翻转</p>
                         </div>
                         <div class="flashcard-back">
                             <h2 id="fc-name-back">???</h2>
@@ -86,19 +86,19 @@
                 <button class="game-btn" onclick="startGame('type')">
                     <div>
                         <div class="game-icon">❓</div>
-                        <div>猜属性<br>Guess Type</div>
+                        <div>猜属性</div>
                     </div>
                 </button>
                 <button class="game-btn" onclick="startGame('weakness')">
                     <div>
                         <div class="game-icon">🛡️</div>
-                        <div>猜弱点<br>Guess Weakness</div>
+                        <div>猜弱点</div>
                     </div>
                 </button>
                 <button class="game-btn" onclick="startGame('strong')">
                     <div>
                         <div class="game-icon">⚔️</div>
-                        <div>猜克制<br>Guess Strong</div>
+                        <div>猜克制</div>
                     </div>
                 </button>
             </div>
@@ -123,7 +123,7 @@
         <div id="cheatsheet-view" class="view-section hidden">
             <div class="type-explorer">
                 <div class="explorer-header">
-                    <h3>选择属性查看相性 (Select a Type)</h3>
+                    <h3>选择属性查看相性</h3>
                     <div id="explorer-types" class="type-grid">
                         <!-- Type badges injected here -->
                     </div>

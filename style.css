@@ -22,8 +22,15 @@
     padding: 0;
 }
 
-body {
+body,
+button,
+input,
+select,
+textarea {
     font-family: 'Fusion Pixel 12px Monospaced SC', 'Outfit', 'Noto Sans SC', sans-serif;
+}
+
+body {
     background-color: var(--bg-color);
     /* Layered background: Dot grid + Gradient */
     background-image:
@@ -572,9 +579,9 @@ body.hide-types .pokemon-card:hover .pokemon-types {
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    overflow: hidden;
-    /* Ensure rounded corners clip content */
-    position: relative;
+    /* overflow: hidden;  <-- REMOVED to fix 3D flip */
+    border-radius: 24px;
+    /* Ensure radius is here */
 }
 
 .flashcard-front::before,
