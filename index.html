@@ -121,29 +121,30 @@
 
         <!-- Cheatsheet View (Type Explorer) -->
         <div id="cheatsheet-view" class="view-section hidden">
-            <div class="type-explorer">
-                <div class="explorer-header">
-                    <h3>选择属性查看相性</h3>
-                    <div id="explorer-types" class="type-grid">
-                        <!-- Type badges injected here -->
+            <div class="cheatsheet-layout">
+                <div class="column left-col">
+                    <h3>Weak To <span class="subtitle">(Takes 2x/4x)</span></h3>
+                    <div id="weak-to-list" class="type-list">
+                        <p class="hint">Click types to see details</p>
                     </div>
                 </div>
-                <div id="explorer-results" class="explorer-results hidden">
-                    <div class="result-col offensive">
-                        <h4>攻击 (Offensive)</h4>
-                        <p class="sub-label">打击面 (Strong Against)</p>
-                        <div id="off-strong" class="result-list"></div>
-                        <p class="sub-label">微弱 (Weak Against)</p>
-                        <div id="off-weak" class="result-list"></div>
-                    </div>
-                    <div class="result-col defensive">
-                        <h4>防御 (Defensive)</h4>
-                        <p class="sub-label">弱点 (Weak To)</p>
-                        <div id="def-weak" class="result-list"></div>
-                        <p class="sub-label">抵抗 (Resistant To)</p>
-                        <div id="def-resist" class="result-list"></div>
+
+                <div class="column center-col">
+                    <h3>All Types</h3>
+                    <div id="all-types-list" class="type-grid">
+                        <!-- Populated by JS -->
                     </div>
                 </div>
+
+                <div class="column right-col">
+                    <h3>Strong Against <span class="subtitle">(Deals 2x)</span></h3>
+                    <div id="strong-against-list" class="type-list">
+                        <p class="hint">Select up to 2 types</p>
+                    </div>
+                </div>
+            </div>
+            <div id="immunity-info" class="immunity-bar hidden">
+                <span class="icon">🛡️</span> Immune to: <span id="immune-to-types"></span>
             </div>
         </div>
     </main>

@@ -45,7 +45,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     let currentFlashcardIndex = 0;
     let gameScore = 0;
     let gameStreak = 0;
+
     let currentGameType = null;
+    let selectedCheatsheetTypes = []; // Array of strings, max 2
 
     // Fetch Data
     try {
@@ -65,7 +67,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     function initApp() {
         renderPokemon(allPokemon);
         renderFilters();
-        renderTypeExplorer();
+        setupCheatsheet();
         setupEventListeners();
 
         // Preload first flashcard if data exists
@@ -467,77 +469,165 @@ document.addEventListener('DOMContentLoaded', async () => {
         feedbackDiv.scrollIntoView({ behavior: 'smooth' });
     }
 
-    // --- Cheatsheet View (Type Explorer) ---
-    function renderTypeExplorer() {
-        // New Layout: Central Column Info Graph
-        // [Weak To] -- [TYPE] -- [Strong Against]
-        // Render all 18 rows
-
+    // --- Cheatsheet View (Interactive) ---
+    function setupCheatsheet() {
         const types = Object.keys(typeChart);
+        const allTypesList = document.getElementById('all-types-list');
 
-        // Create container for the graph
-        const graphContainer = document.createElement('div');
-        graphContainer.className = 'cheatsheet-graph';
-
-        // Header Row
-        const header = document.createElement('div');
-        header.className = 'cs-row cs-header';
-        header.innerHTML = `
-            <div class="cs-col cs-left">Weak To (Defensive)</div>
-            <div class="cs-col cs-center">Type</div>
-            <div class="cs-col cs-right">Strong Against (Offensive)</div>
-        `;
-        graphContainer.appendChild(header);
+        if (!allTypesList) return;
+        allTypesList.innerHTML = '';
 
         types.forEach(type => {
-            // 1. Defensive: What is this type Weak To?
-            // (i.e. Attacker where typeChart[Attacker][type] > 1)
-            const weakTo = [];
-            const immuneTo = [];
-            types.forEach(attacker => {
-                const mult = typeChart[attacker][type];
-                if (mult > 1) weakTo.push(attacker);
-                if (mult === 0) immuneTo.push(attacker);
-            });
-
-            // 2. Offensive: What is this type Strong Against?
-            // (i.e. Defender where typeChart[type][Defender] > 1)
-            const strongAgainst = [];
-            const noEffectAgainst = [];
-            types.forEach(defender => {
-                const mult = typeChart[type][defender];
-                if (mult > 1) strongAgainst.push(defender);
-                if (mult === 0) noEffectAgainst.push(defender);
-            });
-
-            const row = document.createElement('div');
-            row.className = 'cs-row';
-
-            const weakHtml = weakTo.map(t => `<span class="mini-badge type-${t}">${t}</span>`).join('');
-            const immuneHtml = immuneTo.length > 0 ? `<div class="cs-immune">⛔ ${immuneTo.map(t => t).join(', ')}</div>` : '';
-
-            const strongHtml = strongAgainst.map(t => `<span class="mini-badge type-${t}">${t}</span>`).join('');
-            const noEffectHtml = noEffectAgainst.length > 0 ? `<div class="cs-immune">⛔ ${noEffectAgainst.map(t => t).join(', ')}</div>` : '';
-
-            row.innerHTML = `
-                <div class="cs-col cs-left">
-                    <div class="cs-badges">${weakHtml || '-'}</div>
-                    ${immuneHtml}
-                </div>
-                <div class="cs-col cs-center">
-                    <span class="type-badge type-${type} main-type">${type}</span>
-                </div>
-                <div class="cs-col cs-right">
-                    <div class="cs-badges">${strongHtml || '-'}</div>
-                    ${noEffectHtml}
-                </div>
-            `;
-            graphContainer.appendChild(row);
+            const badge = document.createElement('div');
+            badge.className = `type-badge type-${type} type-item-interactive`;
+            badge.innerText = type;
+            badge.onclick = () => toggleTypeSelection(type);
+            allTypesList.appendChild(badge);
         });
 
-        explorerTypes.innerHTML = ''; // Clear old selector
-        explorerTypes.appendChild(graphContainer);
-        explorerResults.classList.add('hidden'); // Hide old results container
+        updateCheatsheetUI();
+    }
+
+    function toggleTypeSelection(type) {
+        const index = selectedCheatsheetTypes.indexOf(type);
+
+        if (index > -1) {
+            // Already selected, remove it
+            selectedCheatsheetTypes.splice(index, 1);
+        } else {
+            // Not selected
+            if (selectedCheatsheetTypes.length < 2) {
+                // Add if space
+                selectedCheatsheetTypes.push(type);
+            } else {
+                // Replace first one (FIFO) if full
+                selectedCheatsheetTypes.shift();
+                selectedCheatsheetTypes.push(type);
+            }
+        }
+        updateCheatsheetUI();
+    }
+
+    function updateCheatsheetUI() {
+        const allTypesList = document.getElementById('all-types-list');
+        const weakToList = document.getElementById('weak-to-list');
+        const strongAgainstList = document.getElementById('strong-against-list');
+        const immunityInfo = document.getElementById('immunity-info');
+        const immuneToTypes = document.getElementById('immune-to-types');
+
+        if (!allTypesList) return;
+
+        // 1. Update Active State in Center
+        const allBadges = allTypesList.querySelectorAll('.type-badge');
+        allBadges.forEach(b => {
+            if (selectedCheatsheetTypes.includes(b.innerText)) {
+                b.classList.add('active');
+                b.style.opacity = '1';
+            } else {
+                b.classList.remove('active');
+                b.style.opacity = selectedCheatsheetTypes.length > 0 ? '0.4' : '0.6';
+            }
+        });
+
+        // 2. Clear Lists if empty
+        if (selectedCheatsheetTypes.length === 0) {
+            weakToList.innerHTML = '<p class="hint">Click types to see details</p>';
+            strongAgainstList.innerHTML = '<p class="hint">Select up to 2 types</p>';
+            immunityInfo.classList.add('hidden');
+            return;
+        }
+
+        // 3. Get Relationships
+        const rels = getCombinedRelationships(selectedCheatsheetTypes);
+
+        // 4. Render Weak To (Left)
+        weakToList.innerHTML = '';
+        if (rels.weakTo.length === 0) {
+            weakToList.innerHTML = '<p class="hint">No weaknesses</p>';
+        } else {
+            rels.weakTo.forEach(item => {
+                const badge = document.createElement('div');
+                badge.className = `type-badge type-${item.type}`;
+                badge.innerHTML = `${item.type} <small>x${item.multiplier}</small>`;
+                weakToList.appendChild(badge);
+            });
+        }
+
+        // 5. Render Strong Against (Right)
+        strongAgainstList.innerHTML = '';
+        if (rels.strongAgainst.length === 0) {
+            strongAgainstList.innerHTML = '<p class="hint">Not super effective against anything</p>';
+        } else {
+            rels.strongAgainst.forEach(t => {
+                const badge = document.createElement('div');
+                badge.className = `type-badge type-${t}`;
+                badge.innerText = t;
+                strongAgainstList.appendChild(badge);
+            });
+        }
+
+        // 6. Render Immunities
+        if (rels.immuneTo.length > 0) {
+            immunityInfo.classList.remove('hidden');
+            immuneToTypes.innerHTML = '';
+            rels.immuneTo.forEach(t => {
+                const span = document.createElement('span');
+                span.className = `type-badge type-${t}`;
+                span.style.fontSize = '0.8rem';
+                span.style.margin = '0 0.2rem';
+                span.innerText = t;
+                immuneToTypes.appendChild(span);
+            });
+        } else {
+            immunityInfo.classList.add('hidden');
+        }
+    }
+
+    function getCombinedRelationships(selectedTypes) {
+        const weakTo = []; // Array of {type, multiplier}
+        const strongAgainst = new Set();
+        const immuneTo = [];
+        const allTypes = Object.keys(typeChart);
+
+        if (selectedTypes.length === 0) return { weakTo: [], strongAgainst: [], immuneTo: [] };
+
+        // 1. Weak To (Defensive) & Immune To
+        // Check every attacker against our selected types (as defenders)
+        allTypes.forEach(attacker => {
+            let multiplier = 1;
+            selectedTypes.forEach(defType => {
+                const effectiveness = typeChart[attacker][defType];
+                const factor = effectiveness !== undefined ? effectiveness : 1;
+                multiplier *= factor;
+            });
+
+            if (multiplier > 1) {
+                weakTo.push({ type: attacker, multiplier });
+            }
+            if (multiplier === 0) {
+                immuneTo.push(attacker);
+            }
+        });
+
+        // Sort weakTo by multiplier (descending)
+        weakTo.sort((a, b) => b.multiplier - a.multiplier);
+
+        // 2. Strong Against (Offensive)
+        // Combine what each selected type is strong against
+        selectedTypes.forEach(myType => {
+            allTypes.forEach(defender => {
+                const effectiveness = (typeChart[myType][defender] !== undefined) ? typeChart[myType][defender] : 1;
+                if (effectiveness > 1) {
+                    strongAgainst.add(defender);
+                }
+            });
+        });
+
+        return {
+            weakTo,
+            strongAgainst: Array.from(strongAgainst),
+            immuneTo
+        };
     }
 
 

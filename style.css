@@ -1499,3 +1499,131 @@ footer {
     transform: scale(0.95);
     filter: brightness(0.9);
 }
+
+/* --- Cheatsheet (Interactive) --- */
+.cheatsheet-layout {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column {
+    flex: 1;
+    min-width: 250px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 16px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.column .subtitle {
+    display: block;
+    font-size: 0.8rem;
+    color: #888;
+    font-weight: normal;
+    margin-top: 0.2rem;
+}
+
+.type-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.type-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 0.8rem;
+    width: 100%;
+}
+
+.hint {
+    color: #999;
+    font-style: italic;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Interactive Type Badges */
+.type-item-interactive {
+    cursor: pointer;
+    transition: var(--transition);
+    opacity: 0.6;
+    transform: scale(0.95);
+}
+
+.type-item-interactive:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    z-index: 10;
+}
+
+.type-item-interactive.active {
+    opacity: 1;
+    transform: scale(1.1);
+    box-shadow: 0 0 0 3px white, 0 0 0 5px var(--accent-color);
+    z-index: 5;
+}
+
+/* Immunity Bar */
+.immunity-bar {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50px;
+    padding: 0.8rem 2rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E2E8F0;
+    font-weight: bold;
+    color: #555;
+}
+
+.immunity-bar .icon {
+    font-size: 1.2rem;
+}
+
+#immune-to-types {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .cheatsheet-layout {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .center-col {
+        order: -1;
+        /* Show selection first on mobile */
+    }
+}
