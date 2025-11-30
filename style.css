@@ -18,8 +18,43 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+}
+
+.lang-switcher {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    z-index: 200;
+}
+
+.lang-btn {
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #CBD5E0;
+    border-radius: 4px;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-family: inherit;
+    transition: var(--transition);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.lang-btn:hover,
+.lang-btn.active {
+    background: white;
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 0 rgba(56, 178, 172, 0.2);
+}
+
+.lang-btn.active {
+    font-weight: bold;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transform: translateY(1px);
 }
 
 body,
@@ -245,75 +280,76 @@ h1 {
 }
 
 /* Type Colors */
-.type-一般 {
+/* Type Colors */
+.type-Normal {
     background-color: #A8A77A;
 }
 
-.type-火 {
+.type-Fire {
     background-color: #EE8130;
 }
 
-.type-水 {
+.type-Water {
     background-color: #6390F0;
 }
 
-.type-草 {
+.type-Grass {
     background-color: #7AC74C;
 }
 
-.type-电 {
+.type-Electric {
     background-color: #F7D02C;
 }
 
-.type-冰 {
+.type-Ice {
     background-color: #96D9D6;
 }
 
-.type-格斗 {
+.type-Fighting {
     background-color: #C22E28;
 }
 
-.type-毒 {
+.type-Poison {
     background-color: #A33EA1;
 }
 
-.type-地面 {
+.type-Ground {
     background-color: #E2BF65;
 }
 
-.type-飞行 {
+.type-Flying {
     background-color: #A98FF3;
 }
 
-.type-超能力 {
+.type-Psychic {
     background-color: #F95587;
 }
 
-.type-虫 {
+.type-Bug {
     background-color: #A6B91A;
 }
 
-.type-岩石 {
+.type-Rock {
     background-color: #B6A136;
 }
 
-.type-幽灵 {
+.type-Ghost {
     background-color: #735797;
 }
 
-.type-龙 {
+.type-Dragon {
     background-color: #6F35FC;
 }
 
-.type-恶 {
+.type-Dark {
     background-color: #705746;
 }
 
-.type-钢 {
+.type-Steel {
     background-color: #B7B7CE;
 }
 
-.type-妖精 {
+.type-Fairy {
     background-color: #D685AD;
 }
 
@@ -495,8 +531,12 @@ body.hide-types .pokemon-card:hover .pokemon-types {
     opacity: 0.8;
     transition: var(--transition);
     border: 1px solid #CBD5E0;
-    background: rgba(255, 255, 255, 0.8);
+    /* background removed to allow type colors to show */
     color: #333;
+}
+
+.filter-badge.default-badge {
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .filter-badge:hover,
@@ -504,8 +544,29 @@ body.hide-types .pokemon-card:hover .pokemon-types {
     opacity: 1;
     transform: translateY(-2px);
     border-color: var(--accent-color);
-    background: white;
     box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.filter-badge.default-badge:hover,
+.filter-badge.default-badge.active {
+    background: white;
+}
+
+/* Override for colored type badges in filter */
+.filter-badge[class*="type-"] {
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.filter-badge[class*="type-"]:hover,
+.filter-badge[class*="type-"].active {
+    opacity: 1;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+    /* Keep background color from type class */
+    filter: brightness(1.1);
+    /* Add slight highlight on hover */
 }
 
 /* View Sections */
@@ -1379,111 +1440,111 @@ footer {
 }
 
 /* Dynamic Type Colors for Game Options */
-.option-btn.type-一般 {
+.option-btn.type-Normal {
     background-color: #A8A77A;
     border-color: #A8A77A;
     color: white;
 }
 
-.option-btn.type-火 {
+.option-btn.type-Fire {
     background-color: #EE8130;
     border-color: #EE8130;
     color: white;
 }
 
-.option-btn.type-水 {
+.option-btn.type-Water {
     background-color: #6390F0;
     border-color: #6390F0;
     color: white;
 }
 
-.option-btn.type-草 {
+.option-btn.type-Grass {
     background-color: #7AC74C;
     border-color: #7AC74C;
     color: white;
 }
 
-.option-btn.type-电 {
+.option-btn.type-Electric {
     background-color: #F7D02C;
     border-color: #F7D02C;
     color: white;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-.option-btn.type-冰 {
+.option-btn.type-Ice {
     background-color: #96D9D6;
     border-color: #96D9D6;
     color: white;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-.option-btn.type-格斗 {
+.option-btn.type-Fighting {
     background-color: #C22E28;
     border-color: #C22E28;
     color: white;
 }
 
-.option-btn.type-毒 {
+.option-btn.type-Poison {
     background-color: #A33EA1;
     border-color: #A33EA1;
     color: white;
 }
 
-.option-btn.type-地面 {
+.option-btn.type-Ground {
     background-color: #E2BF65;
     border-color: #E2BF65;
     color: white;
 }
 
-.option-btn.type-飞行 {
+.option-btn.type-Flying {
     background-color: #A98FF3;
     border-color: #A98FF3;
     color: white;
 }
 
-.option-btn.type-超能力 {
+.option-btn.type-Psychic {
     background-color: #F95587;
     border-color: #F95587;
     color: white;
 }
 
-.option-btn.type-虫 {
+.option-btn.type-Bug {
     background-color: #A6B91A;
     border-color: #A6B91A;
     color: white;
 }
 
-.option-btn.type-岩石 {
+.option-btn.type-Rock {
     background-color: #B6A136;
     border-color: #B6A136;
     color: white;
 }
 
-.option-btn.type-幽灵 {
+.option-btn.type-Ghost {
     background-color: #735797;
     border-color: #735797;
     color: white;
 }
 
-.option-btn.type-龙 {
+.option-btn.type-Dragon {
     background-color: #6F35FC;
     border-color: #6F35FC;
     color: white;
 }
 
-.option-btn.type-恶 {
+.option-btn.type-Dark {
     background-color: #705746;
     border-color: #705746;
     color: white;
 }
 
-.option-btn.type-钢 {
+.option-btn.type-Steel {
     background-color: #B7B7CE;
     border-color: #B7B7CE;
     color: white;
 }
 
-.option-btn.type-妖精 {
+.option-btn.type-Fairy {
     background-color: #D685AD;
     border-color: #D685AD;
     color: white;

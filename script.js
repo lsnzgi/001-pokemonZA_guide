@@ -38,7 +38,164 @@ document.addEventListener('DOMContentLoaded', async () => {
     const defWeak = document.getElementById('def-weak');
     const defResist = document.getElementById('def-resist');
 
+    // Translations
+    const TRANSLATIONS = {
+        cn: {
+            subtitle: "密阿雷图鉴记忆助手",
+            nav_pokedex: "图鉴",
+            nav_flashcards: "卡片",
+            nav_games: "游戏",
+            nav_cheatsheet: "相性表",
+            search_placeholder: "搜索宝可梦名称或属性...",
+            hide_names: "隐藏名字",
+            hide_types: "隐藏属性",
+            click_to_flip: "点击翻转",
+            prev: "上一个",
+            next: "下一个",
+            flip: "翻转",
+            game_guess_type: "猜属性",
+            game_guess_weakness: "猜弱点",
+            game_guess_strong: "猜克制",
+            exit: "退出",
+            submit_answer: "提交答案",
+            select_type_hint: "选择属性查看相性",
+            offensive: "攻击 (Offensive)",
+            strong_against: "打击面 (Strong Against)",
+            defensive: "防御 (Defensive)",
+            weak_to: "弱点 (Weak To)",
+            immune_to: "无效 (Immune To)",
+            score: "得分",
+            streak: "连胜",
+            correct: "正确!",
+            wrong: "错误!",
+            types: "属性:",
+            weak_to_label: "弱点:",
+            immune_to_label: "无效:",
+            next_question: "下一题 ➔",
+            game_q_type: "{name} 的属性是?",
+            game_q_weakness: "什么属性克制 {name}?",
+            game_q_strong: "{name} 克制什么属性?",
+            select_all: "选择所有正确答案",
+            no_weakness: "无弱点",
+            none: "无",
+            hint_click_types: "点击属性查看详情",
+            hint_select_2: "最多选择2个属性",
+            not_super_effective: "无克制对象"
+        },
+        en: {
+            subtitle: "Lumiose City Pokedex Memory Aid",
+            nav_pokedex: "Pokedex",
+            nav_flashcards: "Flashcards",
+            nav_games: "Games",
+            nav_cheatsheet: "Cheatsheet",
+            search_placeholder: "Search Pokemon or Type...",
+            hide_names: "Hide Names",
+            hide_types: "Hide Types",
+            click_to_flip: "Click to Flip",
+            prev: "Prev",
+            next: "Next",
+            flip: "Flip",
+            game_guess_type: "Guess Type",
+            game_guess_weakness: "Guess Weakness",
+            game_guess_strong: "Guess Strong",
+            exit: "Exit",
+            submit_answer: "Submit Answer",
+            select_type_hint: "Select Type to View Effectiveness",
+            offensive: "Offensive",
+            strong_against: "Strong Against",
+            defensive: "Defensive",
+            weak_to: "Weak To",
+            immune_to: "Immune To",
+            score: "Score",
+            streak: "Streak",
+            correct: "Correct!",
+            wrong: "Wrong!",
+            types: "Types:",
+            weak_to_label: "Weak To:",
+            immune_to_label: "Immune To:",
+            next_question: "Next Question ➔",
+            game_q_type: "What is {name}'s type?",
+            game_q_weakness: "What is effective against {name}?",
+            game_q_strong: "What is {name} strong against?",
+            select_all: "Select ALL correct types",
+            no_weakness: "No Weaknesses",
+            none: "None",
+            hint_click_types: "Click types to see details",
+            hint_select_2: "Select up to 2 types",
+            not_super_effective: "Not super effective against anything"
+        },
+        jp: {
+            subtitle: "ミアレシティ図鑑記憶サポーター",
+            nav_pokedex: "図鑑",
+            nav_flashcards: "カード",
+            nav_games: "ゲーム",
+            nav_cheatsheet: "相性表",
+            search_placeholder: "ポケモン名またはタイプを検索...",
+            hide_names: "名前を隠す",
+            hide_types: "タイプを隠す",
+            click_to_flip: "クリックして反転",
+            prev: "前へ",
+            next: "次へ",
+            flip: "反転",
+            game_guess_type: "タイプ当て",
+            game_guess_weakness: "弱点当て",
+            game_guess_strong: "抜群当て",
+            exit: "終了",
+            submit_answer: "回答する",
+            select_type_hint: "タイプを選択して相性を確認",
+            offensive: "攻撃 (Offensive)",
+            strong_against: "抜群 (Strong Against)",
+            defensive: "防御 (Defensive)",
+            weak_to: "弱点 (Weak To)",
+            immune_to: "無効 (Immune To)",
+            score: "スコア",
+            streak: "連勝",
+            correct: "正解!",
+            wrong: "不正解!",
+            types: "タイプ:",
+            weak_to_label: "弱点:",
+            immune_to_label: "無効:",
+            next_question: "次の問題 ➔",
+            game_q_type: "{name} のタイプは?",
+            game_q_weakness: "{name} の弱点は?",
+            game_q_strong: "{name} は何に抜群?",
+            select_all: "正解をすべて選択",
+            no_weakness: "弱点なし",
+            none: "なし",
+            hint_click_types: "タイプをクリックして詳細を表示",
+            hint_select_2: "2つまで選択可能",
+            not_super_effective: "抜群なし"
+        }
+    };
+
+    // Type Translations (Simple Map)
+    const TYPE_TRANS = {
+        "Normal": { cn: "一般", en: "Normal", jp: "ノーマル" },
+        "Fire": { cn: "火", en: "Fire", jp: "ほのお" },
+        "Water": { cn: "水", en: "Water", jp: "みず" },
+        "Grass": { cn: "草", en: "Grass", jp: "くさ" },
+        "Electric": { cn: "电", en: "Electric", jp: "でんき" },
+        "Ice": { cn: "冰", en: "Ice", jp: "こおり" },
+        "Fighting": { cn: "格斗", en: "Fighting", jp: "かくとう" },
+        "Poison": { cn: "毒", en: "Poison", jp: "どく" },
+        "Ground": { cn: "地面", en: "Ground", jp: "じめん" },
+        "Flying": { cn: "飞行", en: "Flying", jp: "ひこう" },
+        "Psychic": { cn: "超能力", en: "Psychic", jp: "エスパー" },
+        "Bug": { cn: "虫", en: "Bug", jp: "むし" },
+        "Rock": { cn: "岩石", en: "Rock", jp: "いわ" },
+        "Ghost": { cn: "幽灵", en: "Ghost", jp: "ゴースト" },
+        "Dragon": { cn: "龙", en: "Dragon", jp: "ドラゴン" },
+        "Dark": { cn: "恶", en: "Dark", jp: "あく" },
+        "Steel": { cn: "钢", en: "Steel", jp: "はがね" },
+        "Fairy": { cn: "妖精", en: "Fairy", jp: "フェアリー" }
+    };
+
+    // Reverse Map for Data Loading (CN -> EN Key)
+    // We will need to normalize the data or just use this map if data is still mixed.
+    // Ideally we convert data to EN keys.
+
     // State
+    let currentLang = 'cn';
     let allPokemon = [];
     let typeChart = {};
     let currentFilter = 'all';
@@ -65,15 +222,90 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function initApp() {
-        renderPokemon(allPokemon);
-        renderFilters();
-        setupCheatsheet();
+        setupCheatsheet(); // Create elements first
+        setupLanguageSwitcher();
         setupEventListeners();
+
+        setLanguage(currentLang); // Initial render
 
         // Preload first flashcard if data exists
         if (allPokemon.length > 0) {
             loadFlashcard(0);
         }
+    }
+
+    function setupLanguageSwitcher() {
+        const btns = document.querySelectorAll('.lang-btn');
+        btns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                setLanguage(btn.dataset.lang);
+            });
+        });
+    }
+
+    function setLanguage(lang) {
+        currentLang = lang;
+
+        // Update Buttons
+        document.querySelectorAll('.lang-btn').forEach(b => {
+            b.classList.toggle('active', b.dataset.lang === lang);
+        });
+
+        // Update Static Text
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.dataset.i18n;
+            if (TRANSLATIONS[lang][key]) {
+                el.innerText = TRANSLATIONS[lang][key];
+            }
+        });
+
+        // Update Placeholders
+        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+            const key = el.dataset.i18nPlaceholder;
+            if (TRANSLATIONS[lang][key]) {
+                el.placeholder = TRANSLATIONS[lang][key];
+            }
+        });
+
+        // Re-render Views
+        renderPokemon(allPokemon); // Grid
+        renderFilters(); // Filters
+        loadFlashcard(currentFlashcardIndex); // Flashcard
+        setupCheatsheet(); // Re-render Cheatsheet Grid
+        updateCheatsheetUI(); // Cheatsheet Results
+
+        // If game is active, maybe restart or update text?
+        // For now, next question will handle it.
+        if (!document.getElementById('game-area').classList.contains('hidden')) {
+            // Update Score/Streak labels manually if needed or just let them be
+            updateGameStats();
+        }
+    }
+
+    function getTransType(typeKey) {
+        // typeKey might be "Grass" (EN) or "草" (CN) depending on data state.
+        // We should normalize data to EN keys first.
+        // For now, let's try to find the EN key if it's not.
+        let enKey = typeKey;
+        // Simple check if it's Chinese
+        const entry = Object.entries(TYPE_TRANS).find(([k, v]) => v.cn === typeKey || k === typeKey);
+        if (entry) enKey = entry[0];
+
+        if (TYPE_TRANS[enKey]) {
+            return TYPE_TRANS[enKey][currentLang];
+        }
+        return typeKey;
+    }
+
+    function getPokemonName(p) {
+        // Handle new data structure names: { cn, en, jp }
+        if (p.names && p.names[currentLang]) {
+            return p.names[currentLang];
+        }
+        // Fallback to old structure
+        if (currentLang === 'en') return p.name_en || p.name;
+        if (currentLang === 'jp') return p.name_jp || p.name;
+        return p.name;
     }
 
     // --- Navigation ---
@@ -115,14 +347,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             card.className = 'pokemon-card';
             card.onclick = () => showDetails(p);
 
-            const typesHtml = p.types.map(t =>
-                `<span class="type-badge type-${t}">${t}</span>`
-            ).join('');
+            const name = getPokemonName(p);
+            const typesHtml = p.types.map(t => {
+                const transType = getTransType(t);
+                return `<span class="type-badge type-${t}">${transType}</span>`;
+            }).join('');
 
             card.innerHTML = `
-                <img src="${p.image}" alt="${p.name}" class="pokemon-img" loading="lazy">
+                <img src="${p.image}" alt="${name}" class="pokemon-img" loading="lazy">
                 <div class="pokemon-id">#${p.id}</div>
-                <div class="pokemon-name">${p.name}</div>
+                <div class="pokemon-name">${name}</div>
                 <div class="pokemon-types">${typesHtml}</div>
             `;
             grid.appendChild(card);
@@ -131,12 +365,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function renderFilters() {
         const types = Object.keys(typeChart);
-        filterBar.innerHTML = `<span class="filter-badge active" data-type="all">全部 (All)</span>`;
+        // "All" translation
+        const allText = currentLang === 'cn' ? '全部' : (currentLang === 'jp' ? 'すべて' : 'All');
+        filterBar.innerHTML = `<span class="filter-badge default-badge active" data-type="all">${allText}</span>`;
 
         types.forEach(type => {
             const badge = document.createElement('span');
-            badge.className = `filter-badge type-${type}`;
-            badge.innerText = type;
+            badge.className = `filter-badge type-badge type-${type}`;
+            badge.innerText = getTransType(type);
             badge.dataset.type = type;
             badge.onclick = () => filterGrid(type);
             filterBar.appendChild(badge);
@@ -159,11 +395,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Apply search filter as well
         const searchTerm = searchInput.value.toLowerCase();
         if (searchTerm) {
-            filtered = filtered.filter(p =>
-                p.name.includes(searchTerm) ||
-                p.types.some(t => t.includes(searchTerm)) ||
-                p.id.includes(searchTerm)
-            );
+            filtered = filtered.filter(p => {
+                const name = getPokemonName(p).toLowerCase();
+                const types = p.types.map(t => getTransType(t).toLowerCase());
+                return name.includes(searchTerm) ||
+                    types.some(t => t.includes(searchTerm)) ||
+                    p.id.includes(searchTerm);
+            });
         }
 
         renderPokemon(filtered);
@@ -187,23 +425,29 @@ document.addEventListener('DOMContentLoaded', async () => {
         currentFlashcardIndex = index;
 
         const p = window.flashcardDeck[index];
+        const name = getPokemonName(p);
+
         // Ensure elements exist before setting properties
         if (fcImg) fcImg.src = p.image;
-        if (fcName) fcName.innerText = p.name;
-        if (fcNameBack) fcNameBack.innerHTML = `#${p.id} ${p.name}<br><span style='font-size: 1rem; color: #666; font-weight: normal;'>${p.name_en || ''} ${p.name_jp || ''}</span>`;
+        if (fcName) fcName.innerText = name;
+        if (fcNameBack) fcNameBack.innerHTML = `#${p.id} ${name}`;
 
         if (fcTypes) {
             // Generate types with tooltip data for hover
             fcTypes.innerHTML = p.types.map(t => {
+                const transType = getTransType(t);
                 // Calculate what this specific type is weak to (Defensive)
                 const weakTo = [];
                 Object.keys(typeChart).forEach(attacker => {
-                    if (typeChart[attacker][t] > 1) weakTo.push(attacker);
+                    if (typeChart[attacker][t] > 1) weakTo.push(getTransType(attacker));
                 });
-                const tooltipText = weakTo.length > 0 ? `Weak to: ${weakTo.join(', ')}` : 'No Weaknesses';
+
+                const weakLabel = TRANSLATIONS[currentLang].weak_to_label || "Weak to:";
+                const noWeakLabel = TRANSLATIONS[currentLang].no_weakness || "No Weaknesses";
+                const tooltipText = weakTo.length > 0 ? `${weakLabel} ${weakTo.join(', ')}` : noWeakLabel;
 
                 // Use onmouseenter/leave for JS tooltip to avoid overflow clipping
-                return `<span class="type-badge type-${t}" onmouseenter="showTooltip(event, '${tooltipText}')" onmouseleave="hideTooltip()">${t}</span>`;
+                return `<span class="type-badge type-${t}" onmouseenter="showTooltip(event, '${tooltipText}')" onmouseleave="hideTooltip()">${transType}</span>`;
             }).join('');
         }
 
@@ -279,11 +523,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         const allTypes = Object.keys(typeChart);
 
         if (currentGameType === 'type') {
+            const qText = TRANSLATIONS[currentLang].game_q_type.replace('{name}', getPokemonName(p));
+            const hintText = TRANSLATIONS[currentLang].select_all;
             questionHtml = `
                 <div class="game-question">
                     <img src="${p.image}" alt="Pokemon">
-                    <h3>${p.name} 的属性是? (What is the type?)</h3>
-                    <p style="font-size: 0.9rem; color: #888;">Select ALL correct types</p>
+                    <h3>${qText}</h3>
+                    <p style="font-size: 0.9rem; color: #888;">${hintText}</p>
                 </div>
             `;
             currentCorrectAnswers = p.types;
@@ -298,21 +544,17 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             currentCorrectAnswers = weakTypes; // Allow selecting ANY correct weakness
 
+            const qText = TRANSLATIONS[currentLang].game_q_weakness.replace('{name}', getPokemonName(p));
+            const hintText = TRANSLATIONS[currentLang].select_all;
+
             questionHtml = `
                 <div class="game-question">
                     <img src="${p.image}" alt="Pokemon">
-                    <h3>什么属性克制 ${p.name}? (What is effective against ${p.name}?)</h3>
-                    <p style="font-size: 0.9rem; color: #888;">Select ALL correct types</p>
+                    <h3>${qText}</h3>
+                    <p style="font-size: 0.9rem; color: #888;">${hintText}</p>
                 </div>
             `;
 
-            // Show all types to make it harder/standardized, or a subset?
-            // User said "works the same as the updated weakness minigame" which had 4 options.
-            // But user also said "submit answer and next question button...".
-            // Let's use ALL types for consistency if we are doing multi-select style submission.
-            // Or keep 4 options but require Submit.
-            // Let's use ALL types for a "Master" feel, or maybe 6-9 options?
-            // Let's stick to ALL types for consistency with the "Type" game and "Strong" game.
             options = allTypes;
             document.getElementById('game-controls').classList.remove('hidden');
 
@@ -332,11 +574,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             currentCorrectAnswers = Array.from(strongAgainst);
 
+            const qText = TRANSLATIONS[currentLang].game_q_strong.replace('{name}', getPokemonName(p));
+            const hintText = TRANSLATIONS[currentLang].select_all;
+
             questionHtml = `
                 <div class="game-question">
                     <img src="${p.image}" alt="Pokemon">
-                    <h3>${p.name} 克制什么属性? (What is ${p.name} strong against?)</h3>
-                    <p style="font-size: 0.9rem; color: #888;">Select ALL correct types</p>
+                    <h3>${qText}</h3>
+                    <p style="font-size: 0.9rem; color: #888;">${hintText}</p>
                 </div>
             `;
             options = allTypes;
@@ -344,7 +589,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         const optionsHtml = options.map(opt =>
-            `<button class="option-btn type-${opt}" onclick="handleOptionClick(this, '${opt}')">${opt}</button>`
+            `<button class="option-btn type-${opt}" onclick="handleOptionClick(this, '${opt}')">${getTransType(opt)}</button>`
         ).join('');
 
         gameContent.innerHTML = `
@@ -428,19 +673,19 @@ document.addEventListener('DOMContentLoaded', async () => {
         weakTypes.sort((a, b) => weaknesses[b] - weaknesses[a]);
 
         const typesHtml = p.types.map(t =>
-            `<span class="type-badge type-${t}">${t}</span>`
+            `<span class="type-badge type-${t}">${getTransType(t)}</span>`
         ).join('');
 
         const weakHtml = weakTypes.length > 0 ? weakTypes.map(t => {
             const mult = weaknesses[t];
-            return `<span class="type-badge type-${t}" style="margin: 2px;">${t} <small>x${mult}</small></span>`;
-        }).join('') : '<span>None</span>';
+            return `<span class="type-badge type-${t}" style="margin: 2px;">${getTransType(t)} <small>x${mult}</small></span>`;
+        }).join('') : `<span>${TRANSLATIONS[currentLang].none}</span>`;
 
         const immuneHtml = immuneTypes.length > 0 ? immuneTypes.map(t =>
-            `<span class="type-badge type-${t}" style="margin: 2px; opacity: 0.7;">${t} <small>x0</small></span>`
-        ).join('') : '<span>None</span>';
+            `<span class="type-badge type-${t}" style="margin: 2px; opacity: 0.7;">${getTransType(t)} <small>x0</small></span>`
+        ).join('') : `<span>${TRANSLATIONS[currentLang].none}</span>`;
 
-        let feedbackTitle = isCorrect ? '<h3 style="color:#7AC74C">Correct!</h3>' : '<h3 style="color:#FF69B4">Wrong!</h3>';
+        let feedbackTitle = isCorrect ? `<h3 style="color:#7AC74C">${TRANSLATIONS[currentLang].correct}</h3>` : `<h3 style="color:#FF69B4">${TRANSLATIONS[currentLang].wrong}</h3>`;
 
         const feedbackDiv = document.createElement('div');
         feedbackDiv.id = 'game-feedback';
@@ -448,21 +693,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         feedbackDiv.innerHTML = `
             <div class="feedback-content">
                 ${feedbackTitle}
-                <h4>${p.name}</h4>
+                <h4>${getPokemonName(p)}</h4>
                 <div class="feedback-row">
-                    <span>Types:</span>
+                    <span>${TRANSLATIONS[currentLang].types}</span>
                     <div class="feedback-badges">${typesHtml}</div>
                 </div>
                 <div class="feedback-row">
-                    <span>Weak To:</span>
+                    <span>${TRANSLATIONS[currentLang].weak_to_label}</span>
                     <div class="feedback-badges">${weakHtml}</div>
                 </div>
                 <div class="feedback-row">
-                    <span>Immune To:</span>
+                    <span>${TRANSLATIONS[currentLang].immune_to_label}</span>
                     <div class="feedback-badges">${immuneHtml}</div>
                 </div>
             </div>
-            <button id="next-question-btn" class="action-btn" onclick="nextGameQuestion()">Next Question ➔</button>
+            <button id="next-question-btn" class="action-btn" onclick="nextGameQuestion()">${TRANSLATIONS[currentLang].next_question}</button>
         `;
 
         gameContent.appendChild(feedbackDiv);
@@ -472,7 +717,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- Cheatsheet View (Interactive) ---
     function setupCheatsheet() {
         const types = Object.keys(typeChart);
-        const allTypesList = document.getElementById('all-types-list');
+        const allTypesList = document.getElementById('explorer-types');
 
         if (!allTypesList) return;
         allTypesList.innerHTML = '';
@@ -480,7 +725,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         types.forEach(type => {
             const badge = document.createElement('div');
             badge.className = `type-badge type-${type} type-item-interactive`;
-            badge.innerText = type;
+            badge.innerText = getTransType(type);
             badge.onclick = () => toggleTypeSelection(type);
             allTypesList.appendChild(badge);
         });
@@ -509,7 +754,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function updateCheatsheetUI() {
-        const allTypesList = document.getElementById('all-types-list');
+        const allTypesList = document.getElementById('explorer-types');
         const weakToList = document.getElementById('weak-to-list');
         const strongAgainstList = document.getElementById('strong-against-list');
         const immunityInfo = document.getElementById('immunity-info');
@@ -531,8 +776,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // 2. Clear Lists if empty
         if (selectedCheatsheetTypes.length === 0) {
-            weakToList.innerHTML = '<p class="hint">Click types to see details</p>';
-            strongAgainstList.innerHTML = '<p class="hint">Select up to 2 types</p>';
+            weakToList.innerHTML = `<p class="hint">${TRANSLATIONS[currentLang].hint_click_types}</p>`;
+            strongAgainstList.innerHTML = `<p class="hint">${TRANSLATIONS[currentLang].hint_select_2}</p>`;
             immunityInfo.classList.add('hidden');
             return;
         }
@@ -543,12 +788,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         // 4. Render Weak To (Left)
         weakToList.innerHTML = '';
         if (rels.weakTo.length === 0) {
-            weakToList.innerHTML = '<p class="hint">No weaknesses</p>';
+            weakToList.innerHTML = `<p class="hint">${TRANSLATIONS[currentLang].no_weakness}</p>`;
         } else {
             rels.weakTo.forEach(item => {
                 const badge = document.createElement('div');
                 badge.className = `type-badge type-${item.type}`;
-                badge.innerHTML = `${item.type} <small>x${item.multiplier}</small>`;
+                badge.innerHTML = `${getTransType(item.type)} <small>x${item.multiplier}</small>`;
                 weakToList.appendChild(badge);
             });
         }
@@ -556,12 +801,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         // 5. Render Strong Against (Right)
         strongAgainstList.innerHTML = '';
         if (rels.strongAgainst.length === 0) {
-            strongAgainstList.innerHTML = '<p class="hint">Not super effective against anything</p>';
+            strongAgainstList.innerHTML = `<p class="hint">${TRANSLATIONS[currentLang].not_super_effective}</p>`;
         } else {
             rels.strongAgainst.forEach(t => {
                 const badge = document.createElement('div');
                 badge.className = `type-badge type-${t}`;
-                badge.innerText = t;
+                badge.innerText = getTransType(t);
                 strongAgainstList.appendChild(badge);
             });
         }
@@ -575,7 +820,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 span.className = `type-badge type-${t}`;
                 span.style.fontSize = '0.8rem';
                 span.style.margin = '0 0.2rem';
-                span.innerText = t;
+                span.innerText = getTransType(t);
                 immuneToTypes.appendChild(span);
             });
         } else {
@@ -650,22 +895,41 @@ document.addEventListener('DOMContentLoaded', async () => {
     function showDetails(pokemon) {
         const weaknesses = calculateWeaknesses(pokemon.types);
         const typesHtml = pokemon.types.map(t =>
-            `<span class="type-badge type-${t}">${t}</span>`
+            `<span class="type-badge type-${t}">${getTransType(t)}</span>`
         ).join('');
+
+        const name = getPokemonName(pokemon);
+        // New Fields (District, Alpha, Evo)
+        // We assume these fields exist in the new data structure with {cn, en, jp} or similar
+        // If not, we show "Unknown" or hide
+
+        const district = pokemon.district ? (pokemon.district[currentLang] || pokemon.district.en || 'Unknown') : 'Unknown';
+        const alpha = pokemon.alpha_location ? (pokemon.alpha_location[currentLang] || pokemon.alpha_location.en || 'Unknown') : 'Unknown';
+        const evolution = pokemon.evolution ? (pokemon.evolution[currentLang] || pokemon.evolution.en || 'Unknown') : 'Unknown';
+
+        const districtLabel = currentLang === 'cn' ? '栖息地' : (currentLang === 'jp' ? '生息地' : 'District');
+        const alphaLabel = currentLang === 'cn' ? '头目位置' : (currentLang === 'jp' ? 'オヤブン' : 'Alpha Location');
+        const evoLabel = currentLang === 'cn' ? '进化链' : (currentLang === 'jp' ? '進化' : 'Evolution');
 
         modalBody.innerHTML = `
             <div class="detail-header">
-                <img src="${pokemon.image}" alt="${pokemon.name}" class="detail-img">
+                <img src="${pokemon.image}" alt="${name}" class="detail-img">
                 <div>
-                    <h2>#${pokemon.id} ${pokemon.name}</h2>
-<p style='color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;'>${pokemon.name_en || ''} | ${pokemon.name_jp || ''}</p>
+                    <h2>#${pokemon.id} ${name}</h2>
                     <div class="pokemon-types" style="justify-content: flex-start; margin-top: 0.5rem;">${typesHtml}</div>
                 </div>
             </div>
+            
+            <div class="info-section" style="margin-bottom: 1rem; background: rgba(255,255,255,0.5); padding: 1rem; border-radius: 12px;">
+                <p><strong>${districtLabel}:</strong> ${district}</p>
+                <p><strong>${alphaLabel}:</strong> ${alpha}</p>
+                <p><strong>${evoLabel}:</strong> ${evolution}</p>
+            </div>
+
             <div class="effectiveness-section">
-                <h3>属性相性 (Type Effectiveness)</h3>
+                <h3>${currentLang === 'cn' ? '属性相性' : (currentLang === 'jp' ? 'タイプ相性' : 'Type Effectiveness')}</h3>
                 <div class="eff-grid">
-                    ${renderWeaknessesHtml(weaknesses) || '<p>无特别相性 (No special effectiveness)</p>'}
+                    ${renderWeaknessesHtml(weaknesses) || '<p>No special effectiveness</p>'}
                 </div>
             </div>
         `;
@@ -699,7 +963,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 html += `
                     <div class="eff-item">
-                        <span class="type-badge type-${type}" style="font-size: 0.7rem; padding: 2px 4px;">${type}</span>
+                        <span class="type-badge type-${type}" style="font-size: 0.7rem; padding: 2px 4px;">${getTransType(type)}</span>
                         <span class="${className}">x${multiplier}</span>
                     </div>
                 `;

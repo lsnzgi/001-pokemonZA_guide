@@ -17,19 +17,26 @@
     <header>
         <div class="header-content">
             <h1>LEGENDS <span class="accent">ZA</span> POCKET GUIDE</h1>
-            <p>密阿雷图鉴记忆助手</p>
+            <p data-i18n="subtitle">密阿雷图鉴记忆助手</p>
+        </div>
+
+        <div class="lang-switcher">
+            <button class="lang-btn active" data-lang="cn">中文</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="jp">JP</button>
         </div>
 
         <nav class="main-nav">
-            <button class="nav-btn active" data-tab="grid">图鉴</button>
-            <button class="nav-btn" data-tab="flashcards">卡片</button>
-            <button class="nav-btn" data-tab="games">游戏</button>
-            <button class="nav-btn" data-tab="cheatsheet">相性表</button>
+            <button class="nav-btn active" data-tab="grid" data-i18n="nav_pokedex">图鉴</button>
+            <button class="nav-btn" data-tab="flashcards" data-i18n="nav_flashcards">卡片</button>
+            <button class="nav-btn" data-tab="games" data-i18n="nav_games">游戏</button>
+            <button class="nav-btn" data-tab="cheatsheet" data-i18n="nav_cheatsheet">相性表</button>
         </nav>
 
         <div class="controls" id="grid-controls">
             <div class="search-bar">
-                <input type="text" id="search-input" placeholder="搜索宝可梦名称或属性...">
+                <input type="text" id="search-input" data-i18n-placeholder="search_placeholder"
+                    placeholder="搜索宝可梦名称或属性...">
             </div>
             <div class="filter-bar" id="type-filters">
                 <!-- Type badges will be injected here -->
@@ -37,11 +44,11 @@
             <div class="toggles">
                 <label class="toggle-btn">
                     <input type="checkbox" id="hide-names">
-                    <span class="toggle-label">隐藏名字</span>
+                    <span class="toggle-label" data-i18n="hide_names">隐藏名字</span>
                 </label>
                 <label class="toggle-btn">
                     <input type="checkbox" id="hide-types">
-                    <span class="toggle-label">隐藏属性</span>
+                    <span class="toggle-label" data-i18n="hide_types">隐藏属性</span>
                 </label>
             </div>
         </div>
@@ -63,7 +70,7 @@
                         <div class="flashcard-front">
                             <img id="fc-img" src="" alt="Pokemon">
                             <h2 id="fc-name">???</h2>
-                            <p class="fc-hint">点击翻转</p>
+                            <p class="fc-hint" data-i18n="click_to_flip">点击翻转</p>
                         </div>
                         <div class="flashcard-back">
                             <h2 id="fc-name-back">???</h2>
@@ -73,9 +80,9 @@
                     </div>
                 </div>
                 <div class="fc-controls">
-                    <button id="fc-prev" class="fc-btn">Previous</button>
-                    <button id="fc-flip" class="fc-btn action">Flip</button>
-                    <button id="fc-next" class="fc-btn">Next</button>
+                    <button id="fc-prev" class="fc-btn" data-i18n="prev">Previous</button>
+                    <button id="fc-flip" class="fc-btn action" data-i18n="flip">Flip</button>
+                    <button id="fc-next" class="fc-btn" data-i18n="next">Next</button>
                 </div>
             </div>
         </div>
@@ -86,19 +93,19 @@
                 <button class="game-btn" onclick="startGame('type')">
                     <div>
                         <div class="game-icon">❓</div>
-                        <div>猜属性</div>
+                        <div data-i18n="game_guess_type">猜属性</div>
                     </div>
                 </button>
                 <button class="game-btn" onclick="startGame('weakness')">
                     <div>
                         <div class="game-icon">🛡️</div>
-                        <div>猜弱点</div>
+                        <div data-i18n="game_guess_weakness">猜弱点</div>
                     </div>
                 </button>
                 <button class="game-btn" onclick="startGame('strong')">
                     <div>
                         <div class="game-icon">⚔️</div>
-                        <div>猜克制</div>
+                        <div data-i18n="game_guess_strong">猜克制</div>
                     </div>
                 </button>
             </div>
@@ -108,13 +115,13 @@
                         <span id="game-score">Score: 0</span>
                         <span id="game-streak" class="streak hidden">Streak: 0</span>
                     </div>
-                    <button class="close-game-btn" onclick="stopGame()">Exit</button>
+                    <button class="close-game-btn" onclick="stopGame()" data-i18n="exit">Exit</button>
                 </div>
                 <div id="game-content">
                     <!-- Game content injected here -->
                 </div>
                 <div id="game-controls" class="hidden">
-                    <button id="submit-answer-btn" class="action-btn">Submit Answer</button>
+                    <button id="submit-answer-btn" class="action-btn" data-i18n="submit_answer">Submit Answer</button>
                 </div>
             </div>
         </div>
@@ -122,29 +129,33 @@
         <!-- Cheatsheet View (Type Explorer) -->
         <div id="cheatsheet-view" class="view-section hidden">
             <div class="cheatsheet-layout">
-                <div class="column left-col">
-                    <h3>Weak To <span class="subtitle">(Takes 2x/4x)</span></h3>
+                <!-- Left: Weak To -->
+                <div class="column cs-left">
+                    <h3 data-i18n="weak_to">弱点 (Weak To)</h3>
                     <div id="weak-to-list" class="type-list">
-                        <p class="hint">Click types to see details</p>
+                        <p class="hint" data-i18n="hint_click_types">点击属性查看详情</p>
                     </div>
                 </div>
 
-                <div class="column center-col">
-                    <h3>All Types</h3>
-                    <div id="all-types-list" class="type-grid">
+                <!-- Center: Type Selector -->
+                <div class="column cs-center">
+                    <h3 data-i18n="select_type_hint">选择属性查看相性</h3>
+                    <div id="explorer-types" class="type-grid">
                         <!-- Populated by JS -->
                     </div>
                 </div>
 
-                <div class="column right-col">
-                    <h3>Strong Against <span class="subtitle">(Deals 2x)</span></h3>
+                <!-- Right: Strong Against -->
+                <div class="column cs-right">
+                    <h3 data-i18n="strong_against">打击面 (Strong Against)</h3>
                     <div id="strong-against-list" class="type-list">
-                        <p class="hint">Select up to 2 types</p>
+                        <p class="hint" data-i18n="hint_select_2">最多选择2个属性</p>
                     </div>
                 </div>
             </div>
             <div id="immunity-info" class="immunity-bar hidden">
-                <span class="icon">🛡️</span> Immune to: <span id="immune-to-types"></span>
+                <span class="icon">🛡️</span> <span data-i18n="immune_to">无效 (Immune To)</span>: <span
+                    id="immune-to-types"></span>
             </div>
         </div>
     </main>
