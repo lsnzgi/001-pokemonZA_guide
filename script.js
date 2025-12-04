@@ -899,17 +899,26 @@ document.addEventListener('DOMContentLoaded', async () => {
         ).join('');
 
         const name = getPokemonName(pokemon);
-        // New Fields (District, Alpha, Evo)
-        // We assume these fields exist in the new data structure with {cn, en, jp} or similar
-        // If not, we show "Unknown" or hide
 
-        const district = pokemon.district ? (pokemon.district[currentLang] || pokemon.district.en || 'Unknown') : 'Unknown';
-        const alpha = pokemon.alpha_location ? (pokemon.alpha_location[currentLang] || pokemon.alpha_location.en || 'Unknown') : 'Unknown';
-        const evolution = pokemon.evolution ? (pokemon.evolution[currentLang] || pokemon.evolution.en || 'Unknown') : 'Unknown';
+        // New Fields (Capture, Alpha, Evo) - Localized
+        // Data structure: { cn: "...", en: "...", jp: "..." }
+        const getLocText = (field) => {
+            if (!field) return TRANSLATIONS[currentLang].none || "None";
+            if (typeof field === 'string') return field; // Legacy fallback
+            return field[currentLang] || field.en || "Unknown";
+        };
 
-        const districtLabel = currentLang === 'cn' ? '栖息地' : (currentLang === 'jp' ? '生息地' : 'District');
-        const alphaLabel = currentLang === 'cn' ? '头目位置' : (currentLang === 'jp' ? 'オヤブン' : 'Alpha Location');
-        const evoLabel = currentLang === 'cn' ? '进化链' : (currentLang === 'jp' ? '進化' : 'Evolution');
+        const captureLoc = getLocText(pokemon.capture_location);
+        const alphaLoc = getLocText(pokemon.alpha_location);
+        const evolution = getLocText(pokemon.evolution);
+
+        const labels = {
+            cn: { capture: "捕捉位置", alpha: "头目位置 (Alpha)", evo: "进化链" },
+            en: { capture: "Capture Location", alpha: "Alpha Location", evo: "Evolution" },
+            jp: { capture: "入手場所", alpha: "オヤブン (Alpha)", evo: "進化" }
+        };
+
+        const l = labels[currentLang];
 
         modalBody.innerHTML = `
             <div class="detail-header">
@@ -921,9 +930,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             </div>
             
             <div class="info-section" style="margin-bottom: 1rem; background: rgba(255,255,255,0.5); padding: 1rem; border-radius: 12px;">
-                <p><strong>${districtLabel}:</strong> ${district}</p>
-                <p><strong>${alphaLabel}:</strong> ${alpha}</p>
-                <p><strong>${evoLabel}:</strong> ${evolution}</p>
+                <p><strong>${l.capture}:</strong> ${captureLoc}</p>
+                <p><strong>${l.alpha}:</strong> ${alphaLoc}</p>
+                <p><strong>${l.evo}:</strong> ${evolution}</p>
             </div>
 
             <div class="effectiveness-section">

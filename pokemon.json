@@ -11,10 +11,10 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
       "cn": "未知",
@@ -39,7 +39,7 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -67,7 +67,7 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -95,10 +95,10 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/498.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
       "cn": "未知",
@@ -124,7 +124,7 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/499.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -153,7 +153,7 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/500.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -181,10 +181,10 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
       "cn": "未知",
@@ -209,7 +209,7 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -237,7 +237,7 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -266,10 +266,10 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/661.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 1",
+      "cn": "野生区 1",
+      "jp": "ワイルドエリア 1"
     },
     "alpha_location": {
       "cn": "未知",
@@ -295,15 +295,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/662.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 9",
+      "cn": "野生区 9",
+      "jp": "ワイルドエリア 9"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 7",
+      "cn": "野生区 7",
+      "jp": "ワイルドエリア 7"
     },
     "evolution": {
       "cn": "未知",
@@ -324,15 +324,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/663.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -352,10 +352,10 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/659.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 1, Wild Zone 5",
+      "cn": "野生区 1, 野生区 5",
+      "jp": "ワイルドエリア 1, ワイルドエリア 5"
     },
     "alpha_location": {
       "cn": "未知",
@@ -381,15 +381,15 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/660.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 17",
+      "cn": "野生区 17",
+      "jp": "ワイルドエリア 17"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -409,10 +409,10 @@
       "Bug"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 1",
+      "cn": "野生区 1",
+      "jp": "ワイルドエリア 1"
     },
     "alpha_location": {
       "cn": "未知",
@@ -437,10 +437,10 @@
       "Bug"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 4",
+      "cn": "野生区 4",
+      "jp": "ワイルドエリア 4"
     },
     "alpha_location": {
       "cn": "未知",
@@ -466,15 +466,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 13",
+      "cn": "野生区 13",
+      "jp": "ワイルドエリア 13"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -495,10 +495,10 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 1",
+      "cn": "野生区 1",
+      "jp": "ワイルドエリア 1"
     },
     "alpha_location": {
       "cn": "未知",
@@ -524,10 +524,10 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 2, Wild Zone 7",
+      "cn": "野生区 2, 野生区 7",
+      "jp": "ワイルドエリア 2, ワイルドエリア 7"
     },
     "alpha_location": {
       "cn": "未知",
@@ -553,15 +553,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 15",
+      "cn": "野生区 15",
+      "jp": "ワイルドエリア 15"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 15",
+      "cn": "野生区 15",
+      "jp": "ワイルドエリア 15"
     },
     "evolution": {
       "cn": "未知",
@@ -582,15 +582,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 1, Wild Zone 5",
+      "cn": "野生区 1, 野生区 5",
+      "jp": "ワイルドエリア 1, ワイルドエリア 5"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 1",
+      "cn": "野生区 1",
+      "jp": "ワイルドエリア 1"
     },
     "evolution": {
       "cn": "未知",
@@ -611,10 +611,10 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 5",
+      "cn": "野生区 5",
+      "jp": "ワイルドエリア 5"
     },
     "alpha_location": {
       "cn": "未知",
@@ -640,7 +640,7 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -668,10 +668,10 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 1",
+      "cn": "野生区 1",
+      "jp": "ワイルドエリア 1"
     },
     "alpha_location": {
       "cn": "未知",
@@ -696,10 +696,10 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/180.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 6, Wild Zone 16",
+      "cn": "野生区 6, 野生区 16",
+      "jp": "ワイルドエリア 6, ワイルドエリア 16"
     },
     "alpha_location": {
       "cn": "未知",
@@ -724,15 +724,15 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 16",
+      "cn": "野生区 16",
+      "jp": "ワイルドエリア 16"
     },
     "evolution": {
       "cn": "未知",
@@ -752,10 +752,10 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/504.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 2, Wild Zone 4",
+      "cn": "野生区 2, 野生区 4",
+      "jp": "ワイルドエリア 2, ワイルドエリア 4"
     },
     "alpha_location": {
       "cn": "未知",
@@ -780,15 +780,15 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/505.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 10",
+      "cn": "野生区 10",
+      "jp": "ワイルドエリア 10"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 10",
+      "cn": "野生区 10",
+      "jp": "ワイルドエリア 10"
     },
     "evolution": {
       "cn": "未知",
@@ -809,10 +809,10 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/406.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 2",
+      "cn": "野生区 2",
+      "jp": "ワイルドエリア 2"
     },
     "alpha_location": {
       "cn": "未知",
@@ -838,10 +838,10 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 7",
+      "cn": "野生区 7",
+      "jp": "ワイルドエリア 7"
     },
     "alpha_location": {
       "cn": "未知",
@@ -867,15 +867,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -895,15 +895,15 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 2, Wild Zone 6",
+      "cn": "野生区 2, 野生区 6",
+      "jp": "ワイルドエリア 2, ワイルドエリア 6"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 2",
+      "cn": "野生区 2",
+      "jp": "ワイルドエリア 2"
     },
     "evolution": {
       "cn": "未知",
@@ -924,15 +924,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 11",
+      "cn": "野生区 11",
+      "jp": "ワイルドエリア 11"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Seine River (Zone 4), Wild Zone 20",
+      "cn": "密阿雷市 - 塞纳河 (区域 4), 野生区 20",
+      "jp": "ミアレシティ - セーヌ川 (エリア 4), ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -953,15 +953,15 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/688.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 2, Wild Zone 6",
+      "cn": "野生区 2, 野生区 6",
+      "jp": "ワイルドエリア 2, ワイルドエリア 6"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 6",
+      "cn": "野生区 6",
+      "jp": "ワイルドエリア 6"
     },
     "evolution": {
       "cn": "未知",
@@ -982,15 +982,15 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 16",
+      "cn": "野生区 16",
+      "jp": "ワイルドエリア 16"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -1010,15 +1010,15 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 2, Wild Zone 10",
+      "cn": "野生区 2, 野生区 10",
+      "jp": "ワイルドエリア 2, ワイルドエリア 10"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 2",
+      "cn": "野生区 2",
+      "jp": "ワイルドエリア 2"
     },
     "evolution": {
       "cn": "未知",
@@ -1039,15 +1039,15 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 16",
+      "cn": "野生区 16",
+      "jp": "ワイルドエリア 16"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -1067,7 +1067,7 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/669.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -1095,10 +1095,10 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/670.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 7",
+      "cn": "野生区 7",
+      "jp": "ワイルドエリア 7"
     },
     "alpha_location": {
       "cn": "未知",
@@ -1123,15 +1123,15 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/671.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 16",
+      "cn": "野生区 16",
+      "jp": "ワイルドエリア 16"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -1151,10 +1151,10 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/672.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 3",
+      "cn": "野生区 3",
+      "jp": "ワイルドエリア 3"
     },
     "alpha_location": {
       "cn": "未知",
@@ -1179,15 +1179,15 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/673.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 12",
+      "cn": "野生区 12",
+      "jp": "ワイルドエリア 12"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -1207,10 +1207,10 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/677.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 3, Wild Zone 9",
+      "cn": "野生区 3, 野生区 9",
+      "jp": "ワイルドエリア 3, ワイルドエリア 9"
     },
     "alpha_location": {
       "cn": "未知",
@@ -1235,7 +1235,7 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/678.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -1264,15 +1264,15 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/667.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 3",
+      "cn": "野生区 3",
+      "jp": "ワイルドエリア 3"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 3",
+      "cn": "野生区 3",
+      "jp": "ワイルドエリア 3"
     },
     "evolution": {
       "cn": "未知",
@@ -1293,15 +1293,15 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 17",
+      "cn": "野生区 17",
+      "jp": "ワイルドエリア 17"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 17",
+      "cn": "野生区 17",
+      "jp": "ワイルドエリア 17"
     },
     "evolution": {
       "cn": "未知",
@@ -1321,10 +1321,10 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/674.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 3",
+      "cn": "野生区 3",
+      "jp": "ワイルドエリア 3"
     },
     "alpha_location": {
       "cn": "未知",
@@ -1350,15 +1350,15 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/675.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -1378,7 +1378,7 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/568.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -1406,15 +1406,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/569.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -1435,15 +1435,15 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/702.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -1463,10 +1463,10 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 1",
+      "cn": "野生区 1",
+      "jp": "ワイルドエリア 1"
     },
     "alpha_location": {
       "cn": "未知",
@@ -1491,15 +1491,15 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 3",
+      "cn": "野生区 3",
+      "jp": "ワイルドエリア 3"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 6 (Night)",
+      "cn": "密阿雷市 - 野生区 6 (夜晚)",
+      "jp": "ミアレシティ - ワイルドエリア 6 (夜)"
     },
     "evolution": {
       "cn": "未知",
@@ -1519,15 +1519,15 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 20 (Chance Spawn)",
+      "cn": "密阿雷市 - 野生区 20 (Chance Spawn)",
+      "jp": "ミアレシティ - ワイルドエリア 20 (Chance Spawn)"
     },
     "evolution": {
       "cn": "未知",
@@ -1547,10 +1547,10 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/173.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 19",
+      "cn": "野生区 19",
+      "jp": "ワイルドエリア 19"
     },
     "alpha_location": {
       "cn": "未知",
@@ -1575,15 +1575,15 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 19",
+      "cn": "野生区 19",
+      "jp": "ワイルドエリア 19"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 19",
+      "cn": "野生区 19",
+      "jp": "ワイルドエリア 19"
     },
     "evolution": {
       "cn": "未知",
@@ -1603,15 +1603,15 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 19 (Night), Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 19 (夜晚), 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 19 (夜), ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -1632,15 +1632,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/167.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 4",
+      "cn": "野生区 4",
+      "jp": "ワイルドエリア 4"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 4",
+      "cn": "野生区 4",
+      "jp": "ワイルドエリア 4"
     },
     "evolution": {
       "cn": "未知",
@@ -1661,15 +1661,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -1689,10 +1689,10 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 4",
+      "cn": "野生区 4",
+      "jp": "ワイルドエリア 4"
     },
     "alpha_location": {
       "cn": "未知",
@@ -1717,15 +1717,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 10",
+      "cn": "野生区 10",
+      "jp": "ワイルドエリア 10"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 10",
+      "cn": "野生区 10",
+      "jp": "ワイルドエリア 10"
     },
     "evolution": {
       "cn": "未知",
@@ -1745,10 +1745,10 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 5",
+      "cn": "野生区 5",
+      "jp": "ワイルドエリア 5"
     },
     "alpha_location": {
       "cn": "未知",
@@ -1773,10 +1773,10 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 9",
+      "cn": "野生区 9",
+      "jp": "ワイルドエリア 9"
     },
     "alpha_location": {
       "cn": "未知",
@@ -1801,15 +1801,15 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -1830,10 +1830,10 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 4",
+      "cn": "野生区 4",
+      "jp": "ワイルドエリア 4"
     },
     "alpha_location": {
       "cn": "未知",
@@ -1859,10 +1859,10 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 15",
+      "cn": "野生区 15",
+      "jp": "ワイルドエリア 15"
     },
     "alpha_location": {
       "cn": "未知",
@@ -1888,15 +1888,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 7 (Night), Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 7 (夜晚), 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 7 (夜), ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -1917,10 +1917,10 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/543.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 5",
+      "cn": "野生区 5",
+      "jp": "ワイルドエリア 5"
     },
     "alpha_location": {
       "cn": "未知",
@@ -1946,15 +1946,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/544.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 15",
+      "cn": "野生区 15",
+      "jp": "ワイルドエリア 15"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 5",
+      "cn": "野生区 5",
+      "jp": "ワイルドエリア 5"
     },
     "evolution": {
       "cn": "未知",
@@ -1975,15 +1975,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 15",
+      "cn": "野生区 15",
+      "jp": "ワイルドエリア 15"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -2004,10 +2004,10 @@
       "Ghost"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/679.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 4",
+      "cn": "野生区 4",
+      "jp": "ワイルドエリア 4"
     },
     "alpha_location": {
       "cn": "未知",
@@ -2033,7 +2033,7 @@
       "Ghost"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/680.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -2062,15 +2062,15 @@
       "Ghost"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 16, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 16, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 16, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -2091,15 +2091,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 5, Wild Zone 10",
+      "cn": "野生区 5, 野生区 10",
+      "jp": "ワイルドエリア 5, ワイルドエリア 10"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 5",
+      "cn": "野生区 5",
+      "jp": "ワイルドエリア 5"
     },
     "evolution": {
       "cn": "未知",
@@ -2120,15 +2120,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 13",
+      "cn": "野生区 13",
+      "jp": "ワイルドエリア 13"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 13",
+      "cn": "野生区 13",
+      "jp": "ワイルドエリア 13"
     },
     "evolution": {
       "cn": "未知",
@@ -2149,15 +2149,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -2177,7 +2177,7 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/511.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -2205,15 +2205,15 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/512.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -2233,7 +2233,7 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/513.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -2261,15 +2261,15 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/514.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -2289,7 +2289,7 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/515.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -2317,15 +2317,15 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/516.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -2346,10 +2346,10 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 6",
+      "cn": "野生区 6",
+      "jp": "ワイルドエリア 6"
     },
     "alpha_location": {
       "cn": "未知",
@@ -2375,15 +2375,15 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 16",
+      "cn": "野生区 16",
+      "jp": "ワイルドエリア 16"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -2403,10 +2403,10 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/309.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 5",
+      "cn": "野生区 5",
+      "jp": "ワイルドエリア 5"
     },
     "alpha_location": {
       "cn": "未知",
@@ -2431,15 +2431,15 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 9",
+      "cn": "野生区 9",
+      "jp": "ワイルドエリア 9"
     },
     "evolution": {
       "cn": "未知",
@@ -2460,7 +2460,7 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/280.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -2489,7 +2489,7 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/281.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -2518,15 +2518,15 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 9, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 9, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 9, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -2547,7 +2547,7 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -2576,10 +2576,10 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/228.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 6",
+      "cn": "野生区 6",
+      "jp": "ワイルドエリア 6"
     },
     "alpha_location": {
       "cn": "未知",
@@ -2605,15 +2605,15 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 6",
+      "cn": "野生区 6",
+      "jp": "ワイルドエリア 6"
     },
     "evolution": {
       "cn": "未知",
@@ -2634,10 +2634,10 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/333.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 6, Wild Zone 18",
+      "cn": "野生区 6, 野生区 18",
+      "jp": "ワイルドエリア 6, ワイルドエリア 18"
     },
     "alpha_location": {
       "cn": "未知",
@@ -2663,15 +2663,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 18",
+      "cn": "野生区 18",
+      "jp": "ワイルドエリア 18"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -2691,10 +2691,10 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/531.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 7, Wild Zone 19",
+      "cn": "野生区 7, 野生区 19",
+      "jp": "ワイルドエリア 7, ワイルドエリア 19"
     },
     "alpha_location": {
       "cn": "未知",
@@ -2719,7 +2719,7 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/682.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -2747,7 +2747,7 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/683.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -2775,7 +2775,7 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/684.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -2803,7 +2803,7 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/685.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -2831,10 +2831,10 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 19",
+      "cn": "野生区 19",
+      "jp": "ワイルドエリア 19"
     },
     "alpha_location": {
       "cn": "未知",
@@ -2859,15 +2859,15 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -2887,15 +2887,15 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -2915,15 +2915,15 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -2943,7 +2943,7 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -2971,7 +2971,7 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -2999,7 +2999,7 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -3027,7 +3027,7 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -3055,15 +3055,15 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 10 (Day), Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 10 (白天), 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 10 (日中), ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -3083,10 +3083,10 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/427.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 6",
+      "cn": "野生区 6",
+      "jp": "ワイルドエリア 6"
     },
     "alpha_location": {
       "cn": "未知",
@@ -3111,15 +3111,15 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 18",
+      "cn": "野生区 18",
+      "jp": "ワイルドエリア 18"
     },
     "evolution": {
       "cn": "未知",
@@ -3139,10 +3139,10 @@
       "Ghost"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/353.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 7, Wild Zone 15",
+      "cn": "野生区 7, 野生区 15",
+      "jp": "ワイルドエリア 7, ワイルドエリア 15"
     },
     "alpha_location": {
       "cn": "未知",
@@ -3167,15 +3167,15 @@
       "Ghost"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 15",
+      "cn": "野生区 15",
+      "jp": "ワイルドエリア 15"
     },
     "evolution": {
       "cn": "未知",
@@ -3195,10 +3195,10 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/582.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 7, Wild Zone 12",
+      "cn": "野生区 7, 野生区 12",
+      "jp": "ワイルドエリア 7, ワイルドエリア 12"
     },
     "alpha_location": {
       "cn": "未知",
@@ -3223,7 +3223,7 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/583.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -3251,15 +3251,15 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/584.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -3280,10 +3280,10 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/322.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 8",
+      "cn": "野生区 8",
+      "jp": "ワイルドエリア 8"
     },
     "alpha_location": {
       "cn": "未知",
@@ -3309,7 +3309,7 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -3337,10 +3337,10 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/449.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 7",
+      "cn": "野生区 7",
+      "jp": "ワイルドエリア 7"
     },
     "alpha_location": {
       "cn": "未知",
@@ -3365,10 +3365,10 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/450.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
       "cn": "未知",
@@ -3393,10 +3393,10 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/529.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 8, Wild Zone 14",
+      "cn": "野生区 8, 野生区 14",
+      "jp": "ワイルドエリア 8, ワイルドエリア 14"
     },
     "alpha_location": {
       "cn": "未知",
@@ -3422,15 +3422,15 @@
       "Steel"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/530.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 14",
+      "cn": "野生区 14",
+      "jp": "ワイルドエリア 14"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 14",
+      "cn": "野生区 14",
+      "jp": "ワイルドエリア 14"
     },
     "evolution": {
       "cn": "未知",
@@ -3451,10 +3451,10 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/551.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 8",
+      "cn": "野生区 8",
+      "jp": "ワイルドエリア 8"
     },
     "alpha_location": {
       "cn": "未知",
@@ -3480,15 +3480,15 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/552.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 8",
+      "cn": "野生区 8",
+      "jp": "ワイルドエリア 8"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 8",
+      "cn": "野生区 8",
+      "jp": "ワイルドエリア 8"
     },
     "evolution": {
       "cn": "未知",
@@ -3509,15 +3509,15 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/553.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -3537,10 +3537,10 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 8, Wild Zone 12",
+      "cn": "野生区 8, 野生区 12",
+      "jp": "ワイルドエリア 8, ワイルドエリア 12"
     },
     "alpha_location": {
       "cn": "未知",
@@ -3565,10 +3565,10 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 12",
+      "cn": "野生区 12",
+      "jp": "ワイルドエリア 12"
     },
     "alpha_location": {
       "cn": "未知",
@@ -3593,15 +3593,15 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -3622,10 +3622,10 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/443.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 8",
+      "cn": "野生区 8",
+      "jp": "ワイルドエリア 8"
     },
     "alpha_location": {
       "cn": "未知",
@@ -3651,7 +3651,7 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/444.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -3680,15 +3680,15 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 18, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 18, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 18, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -3709,15 +3709,15 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/703.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 9",
+      "cn": "野生区 9",
+      "jp": "ワイルドエリア 9"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -3738,15 +3738,15 @@
       "Ghost"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 9",
+      "cn": "野生区 9",
+      "jp": "ワイルドエリア 9"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -3767,15 +3767,15 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 9",
+      "cn": "野生区 9",
+      "jp": "ワイルドエリア 9"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 17",
+      "cn": "野生区 17",
+      "jp": "ワイルドエリア 17"
     },
     "evolution": {
       "cn": "未知",
@@ -3795,15 +3795,15 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -3823,7 +3823,7 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/447.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -3852,15 +3852,15 @@
       "Steel"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 11, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 11, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 11, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -3881,10 +3881,10 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 10, Wild Zone 11",
+      "cn": "野生区 10, 野生区 11",
+      "jp": "ワイルドエリア 10, ワイルドエリア 11"
     },
     "alpha_location": {
       "cn": "未知",
@@ -3910,15 +3910,15 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 11",
+      "cn": "野生区 11",
+      "jp": "ワイルドエリア 11"
     },
     "evolution": {
       "cn": "未知",
@@ -3939,7 +3939,7 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -3968,10 +3968,10 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/318.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 10",
+      "cn": "野生区 10",
+      "jp": "ワイルドエリア 10"
     },
     "alpha_location": {
       "cn": "未知",
@@ -3997,15 +3997,15 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 10",
+      "cn": "野生区 10",
+      "jp": "ワイルドエリア 10"
     },
     "evolution": {
       "cn": "未知",
@@ -4025,10 +4025,10 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/602.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 10",
+      "cn": "野生区 10",
+      "jp": "ワイルドエリア 10"
     },
     "alpha_location": {
       "cn": "未知",
@@ -4053,7 +4053,7 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/603.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -4081,15 +4081,15 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -4109,7 +4109,7 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -4137,7 +4137,7 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -4166,15 +4166,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 18, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 18, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 18, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -4195,10 +4195,10 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
       "cn": "未知",
@@ -4224,7 +4224,7 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -4253,7 +4253,7 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -4281,10 +4281,10 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
       "cn": "未知",
@@ -4309,7 +4309,7 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -4338,15 +4338,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 17",
+      "cn": "密阿雷市 - 野生区 17",
+      "jp": "ミアレシティ - ワイルドエリア 17"
     },
     "evolution": {
       "cn": "未知",
@@ -4366,10 +4366,10 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
       "cn": "未知",
@@ -4394,7 +4394,7 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -4422,7 +4422,7 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -4451,15 +4451,15 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 11",
+      "cn": "野生区 11",
+      "jp": "ワイルドエリア 11"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -4479,15 +4479,15 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 11, Wild Zone 19",
+      "cn": "野生区 11, 野生区 19",
+      "jp": "ワイルドエリア 11, ワイルドエリア 19"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 19, Wild Zone 20",
+      "cn": "野生区 19, 野生区 20",
+      "jp": "ワイルドエリア 19, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -4508,10 +4508,10 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/686.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 11",
+      "cn": "野生区 11",
+      "jp": "ワイルドエリア 11"
     },
     "alpha_location": {
       "cn": "未知",
@@ -4537,15 +4537,15 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -4566,7 +4566,7 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/690.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -4595,15 +4595,15 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -4623,10 +4623,10 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/692.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 11",
+      "cn": "野生区 11",
+      "jp": "ワイルドエリア 11"
     },
     "alpha_location": {
       "cn": "未知",
@@ -4651,15 +4651,15 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/693.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 11",
+      "cn": "野生区 11",
+      "jp": "ワイルドエリア 11"
     },
     "evolution": {
       "cn": "未知",
@@ -4679,7 +4679,7 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/704.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -4707,7 +4707,7 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/705.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -4735,15 +4735,15 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/706.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 14 (Rain), Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 14 (Rain), 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 14 (Rain), ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -4764,15 +4764,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/225.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 12",
+      "cn": "野生区 12",
+      "jp": "ワイルドエリア 12"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -4792,10 +4792,10 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/361.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 12",
+      "cn": "野生区 12",
+      "jp": "ワイルドエリア 12"
     },
     "alpha_location": {
       "cn": "未知",
@@ -4820,7 +4820,7 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -4849,15 +4849,15 @@
       "Ghost"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -4878,10 +4878,10 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/459.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 12",
+      "cn": "野生区 12",
+      "jp": "ワイルドエリア 12"
     },
     "alpha_location": {
       "cn": "未知",
@@ -4907,15 +4907,15 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/460.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 12",
+      "cn": "密阿雷市 - 野生区 12",
+      "jp": "ミアレシティ - ワイルドエリア 12"
     },
     "evolution": {
       "cn": "未知",
@@ -4935,10 +4935,10 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/712.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 12",
+      "cn": "野生区 12",
+      "jp": "ワイルドエリア 12"
     },
     "alpha_location": {
       "cn": "未知",
@@ -4963,15 +4963,15 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/713.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 12",
+      "cn": "野生区 12",
+      "jp": "ワイルドエリア 12"
     },
     "evolution": {
       "cn": "未知",
@@ -4992,10 +4992,10 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 13",
+      "cn": "野生区 13",
+      "jp": "ワイルドエリア 13"
     },
     "alpha_location": {
       "cn": "未知",
@@ -5021,7 +5021,7 @@
       "Steel"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -5049,15 +5049,15 @@
       "Bug"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 13",
+      "cn": "野生区 13",
+      "jp": "ワイルドエリア 13"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -5078,15 +5078,15 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 13",
+      "cn": "野生区 13",
+      "jp": "ワイルドエリア 13"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -5107,10 +5107,10 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/587.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 14",
+      "cn": "野生区 14",
+      "jp": "ワイルドエリア 14"
     },
     "alpha_location": {
       "cn": "未知",
@@ -5136,15 +5136,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/701.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -5165,10 +5165,10 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/708.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 13",
+      "cn": "野生区 13",
+      "jp": "ワイルドエリア 13"
     },
     "alpha_location": {
       "cn": "未知",
@@ -5194,15 +5194,15 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/709.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 13",
+      "cn": "野生区 13",
+      "jp": "ワイルドエリア 13"
     },
     "evolution": {
       "cn": "未知",
@@ -5223,7 +5223,7 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/559.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -5252,15 +5252,15 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -5281,10 +5281,10 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 18",
+      "cn": "野生区 18",
+      "jp": "ワイルドエリア 18"
     },
     "alpha_location": {
       "cn": "未知",
@@ -5310,15 +5310,15 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 18",
+      "cn": "野生区 18",
+      "jp": "ワイルドエリア 18"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -5339,15 +5339,15 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/707.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 17",
+      "cn": "野生区 17",
+      "jp": "ワイルドエリア 17"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -5368,7 +5368,7 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/607.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -5397,10 +5397,10 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/608.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 17",
+      "cn": "野生区 17",
+      "jp": "ワイルドエリア 17"
     },
     "alpha_location": {
       "cn": "未知",
@@ -5426,15 +5426,15 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -5455,7 +5455,7 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -5484,7 +5484,7 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/696.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -5513,7 +5513,7 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/697.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -5542,7 +5542,7 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/698.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -5571,7 +5571,7 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/699.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -5600,10 +5600,10 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 14",
+      "cn": "野生区 14",
+      "jp": "ワイルドエリア 14"
     },
     "alpha_location": {
       "cn": "未知",
@@ -5629,7 +5629,7 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -5658,10 +5658,10 @@
       "Rock"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/304.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 14",
+      "cn": "野生区 14",
+      "jp": "ワイルドエリア 14"
     },
     "alpha_location": {
       "cn": "未知",
@@ -5687,10 +5687,10 @@
       "Rock"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/305.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 14",
+      "cn": "野生区 14",
+      "jp": "ワイルドエリア 14"
     },
     "alpha_location": {
       "cn": "未知",
@@ -5716,15 +5716,15 @@
       "Rock"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -5745,10 +5745,10 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/694.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 14",
+      "cn": "野生区 14",
+      "jp": "ワイルドエリア 14"
     },
     "alpha_location": {
       "cn": "未知",
@@ -5774,15 +5774,15 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/695.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -5803,10 +5803,10 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/710.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 15",
+      "cn": "野生区 15",
+      "jp": "ワイルドエリア 15"
     },
     "alpha_location": {
       "cn": "未知",
@@ -5832,15 +5832,15 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 15, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 15, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 15, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -5861,10 +5861,10 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/246.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 15",
+      "cn": "野生区 15",
+      "jp": "ワイルドエリア 15"
     },
     "alpha_location": {
       "cn": "未知",
@@ -5890,7 +5890,7 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/247.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -5919,15 +5919,15 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 17, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 17, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 17, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -5947,10 +5947,10 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 16",
+      "cn": "野生区 16",
+      "jp": "ワイルドエリア 16"
     },
     "alpha_location": {
       "cn": "未知",
@@ -5975,7 +5975,7 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/657.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6004,15 +6004,15 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 13",
+      "cn": "密阿雷市 - 野生区 13",
+      "jp": "ミアレシティ - ワイルドエリア 13"
     },
     "evolution": {
       "cn": "未知",
@@ -6032,15 +6032,15 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/870.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 16",
+      "cn": "野生区 16",
+      "jp": "ワイルドエリア 16"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -6060,10 +6060,10 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/650.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 17",
+      "cn": "野生区 17",
+      "jp": "ワイルドエリア 17"
     },
     "alpha_location": {
       "cn": "未知",
@@ -6088,7 +6088,7 @@
       "Grass"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/651.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6117,7 +6117,7 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6146,15 +6146,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 17",
+      "cn": "野生区 17",
+      "jp": "ワイルドエリア 17"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -6174,10 +6174,10 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 18",
+      "cn": "野生区 18",
+      "jp": "ワイルドエリア 18"
     },
     "alpha_location": {
       "cn": "未知",
@@ -6202,7 +6202,7 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/654.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6231,7 +6231,7 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6259,10 +6259,10 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/371.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 18",
+      "cn": "野生区 18",
+      "jp": "ワイルドエリア 18"
     },
     "alpha_location": {
       "cn": "未知",
@@ -6287,7 +6287,7 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/372.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6316,15 +6316,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 18",
+      "cn": "密阿雷市 - 野生区 18",
+      "jp": "ミアレシティ - ワイルドエリア 18"
     },
     "evolution": {
       "cn": "未知",
@@ -6344,15 +6344,15 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 19",
+      "cn": "野生区 19",
+      "jp": "ワイルドエリア 19"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -6373,15 +6373,15 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/780.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 19",
+      "cn": "野生区 19",
+      "jp": "ワイルドエリア 19"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -6402,7 +6402,7 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/374.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6431,7 +6431,7 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/375.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6460,15 +6460,15 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 16, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 16, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 16, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -6488,7 +6488,7 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/716.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6517,7 +6517,7 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/717.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6546,7 +6546,7 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6575,7 +6575,7 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/719.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6603,7 +6603,7 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6632,7 +6632,7 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6661,7 +6661,7 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/500.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6690,7 +6690,7 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6719,15 +6719,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 15",
+      "cn": "野生区 15",
+      "jp": "ワイルドエリア 15"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 15",
+      "cn": "野生区 15",
+      "jp": "ワイルドエリア 15"
     },
     "evolution": {
       "cn": "未知",
@@ -6748,7 +6748,7 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -6777,15 +6777,15 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 16",
+      "cn": "野生区 16",
+      "jp": "ワイルドエリア 16"
     },
     "evolution": {
       "cn": "未知",
@@ -6806,15 +6806,15 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 11",
+      "cn": "野生区 11",
+      "jp": "ワイルドエリア 11"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Seine River (Zone 4), Wild Zone 20",
+      "cn": "密阿雷市 - 塞纳河 (区域 4), 野生区 20",
+      "jp": "ミアレシティ - セーヌ川 (エリア 4), ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -6835,15 +6835,15 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 16",
+      "cn": "野生区 16",
+      "jp": "ワイルドエリア 16"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -6864,15 +6864,15 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 16",
+      "cn": "野生区 16",
+      "jp": "ワイルドエリア 16"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -6892,10 +6892,10 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/670.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 7",
+      "cn": "野生区 7",
+      "jp": "ワイルドエリア 7"
     },
     "alpha_location": {
       "cn": "未知",
@@ -6921,15 +6921,15 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 17",
+      "cn": "野生区 17",
+      "jp": "ワイルドエリア 17"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 17",
+      "cn": "野生区 17",
+      "jp": "ワイルドエリア 17"
     },
     "evolution": {
       "cn": "未知",
@@ -6950,15 +6950,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 19 (Night), Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 19 (夜晚), 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 19 (夜), ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -6978,15 +6978,15 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7007,15 +7007,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 7 (Night), Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 7 (夜晚), 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 7 (夜), ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7036,15 +7036,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 15",
+      "cn": "野生区 15",
+      "jp": "ワイルドエリア 15"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7065,15 +7065,15 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7094,15 +7094,15 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 16",
+      "cn": "野生区 16",
+      "jp": "ワイルドエリア 16"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7122,15 +7122,15 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 9",
+      "cn": "野生区 9",
+      "jp": "ワイルドエリア 9"
     },
     "evolution": {
       "cn": "未知",
@@ -7151,15 +7151,15 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 9, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 9, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 9, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7180,7 +7180,7 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -7209,15 +7209,15 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 6",
+      "cn": "野生区 6",
+      "jp": "ワイルドエリア 6"
     },
     "evolution": {
       "cn": "未知",
@@ -7238,15 +7238,15 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 18",
+      "cn": "野生区 18",
+      "jp": "ワイルドエリア 18"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7267,10 +7267,10 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/531.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 7, Wild Zone 19",
+      "cn": "野生区 7, 野生区 19",
+      "jp": "ワイルドエリア 7, ワイルドエリア 19"
     },
     "alpha_location": {
       "cn": "未知",
@@ -7296,15 +7296,15 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 18",
+      "cn": "野生区 18",
+      "jp": "ワイルドエリア 18"
     },
     "evolution": {
       "cn": "未知",
@@ -7324,15 +7324,15 @@
       "Ghost"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 15",
+      "cn": "野生区 15",
+      "jp": "ワイルドエリア 15"
     },
     "evolution": {
       "cn": "未知",
@@ -7353,7 +7353,7 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -7382,15 +7382,15 @@
       "Steel"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/530.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 14",
+      "cn": "野生区 14",
+      "jp": "ワイルドエリア 14"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 14",
+      "cn": "野生区 14",
+      "jp": "ワイルドエリア 14"
     },
     "evolution": {
       "cn": "未知",
@@ -7411,15 +7411,15 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 18, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 18, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 18, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7440,15 +7440,15 @@
       "Ghost"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 9",
+      "cn": "野生区 9",
+      "jp": "ワイルドエリア 9"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7469,15 +7469,15 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 9",
+      "cn": "野生区 9",
+      "jp": "ワイルドエリア 9"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 17",
+      "cn": "野生区 17",
+      "jp": "ワイルドエリア 17"
     },
     "evolution": {
       "cn": "未知",
@@ -7497,15 +7497,15 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7526,15 +7526,15 @@
       "Steel"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 11, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 11, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 11, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7555,15 +7555,15 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 11",
+      "cn": "野生区 11",
+      "jp": "ワイルドエリア 11"
     },
     "evolution": {
       "cn": "未知",
@@ -7584,15 +7584,15 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 10",
+      "cn": "野生区 10",
+      "jp": "ワイルドエリア 10"
     },
     "evolution": {
       "cn": "未知",
@@ -7612,15 +7612,15 @@
       "Electric"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7641,15 +7641,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 18, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 18, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 18, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7670,7 +7670,7 @@
       "Poison"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -7699,15 +7699,15 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 17",
+      "cn": "密阿雷市 - 野生区 17",
+      "jp": "ミアレシティ - ワイルドエリア 17"
     },
     "evolution": {
       "cn": "未知",
@@ -7728,15 +7728,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 17",
+      "cn": "密阿雷市 - 野生区 17",
+      "jp": "ミアレシティ - ワイルドエリア 17"
     },
     "evolution": {
       "cn": "未知",
@@ -7756,7 +7756,7 @@
       "Water"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -7785,15 +7785,15 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7814,15 +7814,15 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7842,7 +7842,7 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -7871,15 +7871,15 @@
       "Ghost"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7900,15 +7900,15 @@
       "Ice"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/460.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 12",
+      "cn": "密阿雷市 - 野生区 12",
+      "jp": "ミアレシティ - ワイルドエリア 12"
     },
     "evolution": {
       "cn": "未知",
@@ -7929,7 +7929,7 @@
       "Steel"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -7958,15 +7958,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 13",
+      "cn": "野生区 13",
+      "jp": "ワイルドエリア 13"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -7987,15 +7987,15 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 13",
+      "cn": "野生区 13",
+      "jp": "ワイルドエリア 13"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -8016,15 +8016,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/701.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -8045,15 +8045,15 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -8074,15 +8074,15 @@
       "Fire"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -8103,7 +8103,7 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -8132,7 +8132,7 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -8160,15 +8160,15 @@
       "Steel"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -8189,15 +8189,15 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 17, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 17, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 17, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -8218,15 +8218,15 @@
       "Dark"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 13",
+      "cn": "密阿雷市 - 野生区 13",
+      "jp": "ミアレシティ - ワイルドエリア 13"
     },
     "evolution": {
       "cn": "未知",
@@ -8246,15 +8246,15 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/870.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 16",
+      "cn": "野生区 16",
+      "jp": "ワイルドエリア 16"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -8275,7 +8275,7 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -8304,15 +8304,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 17",
+      "cn": "野生区 17",
+      "jp": "ワイルドエリア 17"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -8333,7 +8333,7 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -8362,15 +8362,15 @@
       "Flying"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 18",
+      "cn": "密阿雷市 - 野生区 18",
+      "jp": "ミアレシティ - ワイルドエリア 18"
     },
     "evolution": {
       "cn": "未知",
@@ -8390,15 +8390,15 @@
       "Normal"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 19",
+      "cn": "野生区 19",
+      "jp": "ワイルドエリア 19"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -8419,15 +8419,15 @@
       "Dragon"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/780.png",
-    "district": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+    "capture_location": {
+      "en": "Wild Zone 19",
+      "cn": "野生区 19",
+      "jp": "ワイルドエリア 19"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Wild Zone 20",
+      "cn": "野生区 20",
+      "jp": "ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -8448,15 +8448,15 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
     },
     "alpha_location": {
-      "cn": "未知",
-      "en": "Unknown",
-      "jp": "不明"
+      "en": "Lumiose City - Wild Zone 16, Wild Zone 20",
+      "cn": "密阿雷市 - 野生区 16, 野生区 20",
+      "jp": "ミアレシティ - ワイルドエリア 16, ワイルドエリア 20"
     },
     "evolution": {
       "cn": "未知",
@@ -8477,7 +8477,7 @@
       "Ground"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -8506,7 +8506,7 @@
       "Fairy"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/719.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -8535,7 +8535,7 @@
       "Fighting"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"
@@ -8563,7 +8563,7 @@
       "Psychic"
     ],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
-    "district": {
+    "capture_location": {
       "cn": "未知",
       "en": "Unknown",
       "jp": "不明"

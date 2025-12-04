@@ -279,6 +279,88 @@ h1 {
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+/* Detail View Type Badges - Outlined/Transparent */
+.detail-header .type-badge {
+    background-color: transparent !important;
+    box-shadow: none;
+    text-shadow: none;
+    border: 2px solid currentColor;
+    padding: 0.2rem 0.8rem;
+}
+
+/* We need to set the text color to the type color for the outlined look */
+.detail-header .type-Normal {
+    color: #A8A77A;
+}
+
+.detail-header .type-Fire {
+    color: #EE8130;
+}
+
+.detail-header .type-Water {
+    color: #6390F0;
+}
+
+.detail-header .type-Grass {
+    color: #7AC74C;
+}
+
+.detail-header .type-Electric {
+    color: #F7D02C;
+}
+
+.detail-header .type-Ice {
+    color: #96D9D6;
+}
+
+.detail-header .type-Fighting {
+    color: #C22E28;
+}
+
+.detail-header .type-Poison {
+    color: #A33EA1;
+}
+
+.detail-header .type-Ground {
+    color: #E2BF65;
+}
+
+.detail-header .type-Flying {
+    color: #A98FF3;
+}
+
+.detail-header .type-Psychic {
+    color: #F95587;
+}
+
+.detail-header .type-Bug {
+    color: #A6B91A;
+}
+
+.detail-header .type-Rock {
+    color: #B6A136;
+}
+
+.detail-header .type-Ghost {
+    color: #735797;
+}
+
+.detail-header .type-Dragon {
+    color: #6F35FC;
+}
+
+.detail-header .type-Dark {
+    color: #705746;
+}
+
+.detail-header .type-Steel {
+    color: #B7B7CE;
+}
+
+.detail-header .type-Fairy {
+    color: #D685AD;
+}
+
 /* Type Colors */
 /* Type Colors */
 .type-Normal {

@@ -1,0 +1,317 @@
+### Wild Zone 1 Pokemon
+[Weedle]
+[Pichu]
+[Scatterbug]
+[Fletchling]
+[Pidgey]
+[Mareep]
+[Bunnelby]
+
+### Wild Zone 2 Pokemon
+[Kakuna]
+[Patrat]
+[Binacle]
+[Staryu]
+[Magikarp]
+[Budew]
+
+### Wild Zone 3 Pokemon
+[Skiddo]
+[Pancham]
+[Litleo]
+[Espurr]
+[Flabebe]
+[Pikachu]
+
+### Wild Zone 4 Pokemon
+[Patrat]
+[Gastly]
+[Honedge]
+[Spewpa]
+[Ekans]
+[Spinarak]
+
+### Wild Zone 5 Pokemon
+[Pidgeotto]
+[Venipede]
+[Electrike]
+[Bellsprout]
+[Abra]
+[Pidgey]
+[Bunnelby]
+
+### Wild Zone 6 Pokemon
+[Binacle]
+[Meditite]
+[Buneary]
+[Magikarp]
+[Houndour]
+[Swablu]
+[Flaaffy]
+
+### Wild Zone 7 Pokemon
+[Hippopotas]
+[Audino]
+[Vanillite]
+[Kakuna]
+[Floette]
+[Roselia]
+[Shuppet]
+
+### Wild Zone 8 Pokemon
+[Krokorok]
+[Sandile]
+[Gible]
+[Drilbur]
+[Machop]
+[Numel]
+
+### Wild Zone 9 Pokemon
+[Carbink]
+[Espurr]
+[Fletchinder]
+[Kadabra]
+[Sableye]
+[Mawile]
+
+### Wild Zone 10 Pokemon
+[Slowpoke]
+[Arbok]
+[Watchog]
+[Bellsprout]
+[Carvanha]
+[Staryu]
+[Tynamo]
+
+### Wild Zone 11 Pokemon
+[Gyarados]
+[Clauncher]
+[Furfrou]
+[Inkay]
+[Slowpoke]
+[Stunfisk]
+
+### Wild Zone 12 Pokemon
+[Delibird]
+[Machop]
+[Snorunt]
+[Bergmite]
+[Vanillite]
+[Gogoat]
+[Snover]
+[Machoke]
+
+### Wild Zone 13 Pokemon
+[Phantump]
+[Vivillon]
+[Heracross]
+[Pinsir]
+[Weepinbell]
+[Scyther]
+
+### Wild Zone 14 Pokemon
+[Helioptile]
+[Drilbur]
+[Onix]
+[Aron]
+[Lairon]
+[Excadrill]
+[Emolga]
+
+### Wild Zone 15 Pokemon
+[Pumpkaboo (Average)]
+[Shuppet]
+[Scolipede]
+[Haunter]
+[Whirlipede]
+[Beedrill]
+[Larvitar]
+
+### Wild Zone 16 Pokemon
+[Falinks]
+[Flaaffy]
+[Starmie]
+[Barbaracle]
+[Medicham]
+[Florges]
+[Froakie]
+
+### Wild Zone 17 Pokemon
+[Klefki]
+[Lampent]
+[Skarmory]
+[Pyroar]
+[Diggersby]
+[Chespin]
+
+### Wild Zone 18 Pokemon
+[Noibat]
+[Fennekin]
+[Bagon]
+[Altaria]
+[Noivern]
+[Swablu]
+
+### Wild Zone 19 Pokemon
+[Eevee]
+[Furfrou]
+[Drampa]
+[Kangaskhan]
+[Audino]
+[Cleffa]
+[Clefairy]
+
+### Wild Zone 20 Pokemon
+[Malamar]
+[Dragalge]
+[Charmander]
+[Tepig]
+[Lucario]
+[Hippowdon]
+[Squirtle]
+[Totodile]
+[Bulbasaur]
+[Roserade]
+[Gardevoir]
+[Chikorita]
+[Aggron]
+[Scrafty]
+[Garbodor]
+
+### Wild Zone 1 Alpha Pokemon
+[Pidgey]
+
+### Wild Zone 2 Alpha Pokemon
+[Staryu]
+[Magikarp]
+
+### Wild Zone 3 Alpha Pokemon
+[Litleo]
+
+### Wild Zone 4 Alpha Pokemon
+[Spinarak]
+
+### Wild Zone 5 Alpha Pokemon
+[Bellsprout]
+[Whirlipede]
+
+### Wild Zone 6 Alpha Pokemon
+[Houndoom]
+[Binacle]
+[Pikachu]
+
+### Wild Zone 7 Alpha Pokemon
+[Fletchinder]
+
+### Wild Zone 8 Alpha Pokemon
+[Krokorok]
+
+### Wild Zone 9 Alpha Pokemon
+[Manectric]
+[Meowstic-M]
+[Meowstic-F]
+
+### Wild Zone 10 Alpha Pokemon
+[Watchog]
+[Sharpedo]
+[Arbok]
+
+### Wild Zone 11 Alpha Pokemon
+[Clawitzer]
+[Slowbro]
+
+### Wild Zone 12 Alpha Pokemon
+[Abomasnow]
+[Avalugg]
+
+### Wild Zone 13 Alpha Pokemon
+[Weepinbell]
+[Trevenant]
+
+### Wild Zone 14 Alpha Pokemon
+[Excadrill]
+
+### Wild Zone 15 Alpha Pokemon
+[Beedrill]
+[Banette]
+[Gourgeist (Average)]
+
+### Wild Zone 16 Alpha Pokemon
+[Ampharos]
+
+### Wild Zone 17 Alpha Pokemon
+[Mawile]
+[Pyroar]
+
+### Wild Zone 18 Alpha Pokemon
+[Lopunny]
+[Salamence]
+
+### Wild Zone 19 Alpha Pokemon
+[Furfrou]
+[Clefairy]
+
+### Wild Zone 20 Alpha Pokemon
+[Vanilluxe]
+[Gogoat]
+[Florges]
+[Vivillon]
+[Talonflame]
+[Diggersby]
+[Stunfisk]
+[Chandelure]
+[Eelektross]
+[Pangoro]
+[Garbodor]
+[Scrafty]
+[Krookodile]
+[Scolipede]
+[Simipour]
+[Simisear]
+[Simisage]
+[Dedenne]
+[Aegislash (Shield Forme)]
+[Falinks]
+[Drampa]
+[Noivern]
+[Gourgeist (Average)]
+[Klefki]
+[Goodra]
+[Carbink]
+[Froslass]
+[Hawlucha]
+[Sylveon]
+[Heliolisk]
+[Dragalge]
+[Barbaracle]
+[Malamar]
+[Furfrou]
+[Pinsir]
+[Delibird]
+[Heracross]
+[Ariados]
+[Dragonite]
+[Flareon]
+[Jolteon]
+[Vaporeon]
+[Gyarados]
+[Skarmory]
+[Starmie]
+[Kangaskhan]
+[Gengar]
+[Victreebel]
+[Machamp]
+[Alakazam]
+[Clefable]
+[Raichu]
+[Tyranitar]
+[Gardevoir]
+[Sableye]
+[Aggron]
+[Medicham]
+[Altaria]
+[Absol]
+[Metagross]
+[Roserade]
+[Garchomp]
+[Lucario]

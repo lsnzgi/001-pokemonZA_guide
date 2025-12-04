@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const alphaData = require('./alpha_locations');
 
 const filePath = path.join(__dirname, 'pokemon.json');
 const rawData = fs.readFileSync(filePath, 'utf8');
@@ -26,6 +27,29 @@ const typeMap = {
     "妖精": "Fairy"
 };
 
+const REGION_TRANS = {
+    "Lumiose City": { cn: "密阿雷市", jp: "ミアレシティ" }
+};
+
+// Helper to translate "Wild Zone X"
+function translateLocation(loc) {
+    if (loc.startsWith("Wild Zone")) {
+        const num = loc.replace("Wild Zone", "").trim();
+        return {
+            cn: `野生区 ${num}`,
+            jp: `ワイルドエリア ${num}`
+        };
+    }
+    if (loc.includes("Seine River")) {
+        return {
+            cn: "塞纳河 (区域 4)",
+            jp: "セーヌ川 (エリア 4)"
+        };
+    }
+    // Fallback
+    return { cn: loc, jp: loc };
+}
+
 const newPokemonList = pokemonList.map(p => {
     // 1. Construct names object
     const names = {
@@ -37,10 +61,35 @@ const newPokemonList = pokemonList.map(p => {
     // 2. Map types to English keys
     const types = p.types.map(t => typeMap[t] || t);
 
-    // 3. Add new fields with placeholders
-    // We'll use empty strings or "Unknown" for now, user can fill later
-    const district = { cn: "未知", en: "Unknown", jp: "不明" };
-    const alpha_location = { cn: "未知", en: "Unknown", jp: "不明" };
+    // 3. Add new fields
+    // Alpha Data
+    let alphaLoc = { cn: "未知", en: "Unknown", jp: "不明" };
+    const alphaInfo = alphaData[names.en]; // Match by English name
+
+    if (alphaInfo) {
+        const region = alphaInfo.region;
+        const subLoc = alphaInfo.location;
+
+        const regionCN = REGION_TRANS[region] ? REGION_TRANS[region].cn : region;
+        const regionJP = REGION_TRANS[region] ? REGION_TRANS[region].jp : region;
+
+        const subLocTrans = translateLocation(subLoc);
+
+        const condEN = alphaInfo.condition ? ` (${alphaInfo.condition})` : "";
+        const condCN = alphaInfo.condition === "Night" ? " (夜晚)" : (alphaInfo.condition === "Day" ? " (白天)" : (alphaInfo.condition ? ` (${alphaInfo.condition})` : ""));
+        const condJP = alphaInfo.condition === "Night" ? " (夜)" : (alphaInfo.condition === "Day" ? " (日中)" : (alphaInfo.condition ? ` (${alphaInfo.condition})` : ""));
+
+        alphaLoc = {
+            en: `${region} - ${subLoc}${condEN}`,
+            cn: `${regionCN} - ${subLocTrans.cn}${condCN}`,
+            jp: `${regionJP} - ${subLocTrans.jp}${condJP}`
+        };
+    }
+
+    // Capture Location (Placeholder for now, but structured)
+    const captureLoc = { cn: "未知", en: "Unknown", jp: "不明" };
+
+    // Evolution (Placeholder)
     const evolution = { cn: "未知", en: "Unknown", jp: "不明" };
 
     return {
@@ -49,8 +98,8 @@ const newPokemonList = pokemonList.map(p => {
         names: names,
         types: types,
         image: p.image,
-        district: district,
-        alpha_location: alpha_location,
+        capture_location: captureLoc, // Renamed from district to be more accurate
+        alpha_location: alphaLoc,
         evolution: evolution
     };
 });
